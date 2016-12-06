@@ -1,19 +1,20 @@
 {
   "name": "magik-vector",
   "version": "0.0.1",
-  "description": "SEO Service",
-  "main": "./lib/index.js",
+  "description": "Vector class to do 2D and 3D vector calculations",
+  "main": "./lib/magik-vector.js",
   "repository": {
     "type": "git",
-    "url": "ssh://git@stash.rtlnederland.nl/rtlxl/rtl-seo-service.git"
+    "url": "git@github.com:magikMaker/magik-vector.git"
   },
   "scripts": {
+    "doc": "esdoc --debug -c ./config/esdoc.json",
     "lint": "eslint lib",
     "prebuild": "yarn run lint && yarn run test",
     "start": "yarn run test:watcher",
     "server": "nodemon --exec \"yarn run test && yarn run lint && yarn run server\"",
     "test": "yarn run test:unit && yarn run test:coverage",
-    "test:coverage": "istanbul cover --report cobertura --include-all-sources _mocha -- --opts ./config/mocha.opts",
+    "test:coverage": "istanbul cover --include-all-sources _mocha -- --opts ./config/mocha.opts",
     "test:unit": "mocha --opts ./config/mocha.opts",
     "test:watcher": "nodemon --exec \"yarn run lint && yarn run test\""
   },
@@ -28,6 +29,8 @@
   "author": "Bjørn Wikkeling",
   "devDependencies": {
     "chai": "^3.5.0",
+    "esdoc": "^0.4.8",
+    "esdoc-es7-plugin": "^0.0.3",
     "eslint": "^3.11.1",
     "eslint-config-airbnb-base": "^10.0.1",
     "eslint-plugin-import": "^2.2.0",
