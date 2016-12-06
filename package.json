@@ -45,5 +45,10 @@
   "engines": {
     "node": ">=6.0.0"
   },
-  "contributors": []
+  "contributors": [
+    {
+      "name": "Bjørn Wikkeling",
+      "email": "bjorn@provaz.eu"
+    }
+  ]
 }
