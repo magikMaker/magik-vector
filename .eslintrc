@@ -88,6 +88,9 @@
         "before": false,
         "beforeEach": false,
         "describe": false,
-        "it": false
+        "ddescribe": false,
+        "it": false,
+        "iit": false,
+        "xit": false
     }
 }
