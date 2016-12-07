@@ -1,6 +1,6 @@
 {
   "name": "magik-vector",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Vector class to do 2D and 3D vector calculations",
   "main": "./lib/magik-vector.js",
   "repository": {
