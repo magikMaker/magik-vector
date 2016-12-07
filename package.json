@@ -8,6 +8,7 @@
     "url": "git@github.com:magikMaker/magik-vector.git"
   },
   "scripts": {
+    "dev": "yarn run test:watcher",
     "doc": "esdoc --debug -c ./config/esdoc.json",
     "lint": "eslint lib",
     "prebuild": "yarn run lint && yarn run test",

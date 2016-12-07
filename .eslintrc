@@ -94,9 +94,7 @@
     "before": false,
     "beforeEach": false,
     "describe": false,
-    "ddescribe": false,
     "it": false,
-    "iit": false,
     "xit": false
   }
 }

@@ -19,11 +19,22 @@ Returns a clone of the current vector, i.e. creates a new Vector Object with the
 
 constructor(...coordinates)
 ---------------------------
-Initialise a new Vector instance with coordinates as arguments
+Initialise a new Vector instance with coordinates as arguments, either
+supply the individual coordinates or supply an array with number values.
+
 ```js
+// two dimensional
 const vector2D = new MagikVector(12, 15);
+
+// three dimensional
 const vector3D = new MagikVector(12, 15, 71);
-const multiDimensional = new MagikVector(3, 4, 5, 99, 12, 14, 42);
+
+// multi dimensional
+const multiDmensional = new MagikVector(3, 4, 5, 99, 12, 14, 42);
+
+// from Array
+const myCoordinates = [4, 6, 28, 5, 33, 12, 8, 22, 785, 38, 56];
+const multiDimensional = new MagikVector(...myCoordinates);
 ```
 
 divide
