@@ -1,5 +1,98 @@
+MagikVector
+===========
+Vector class for handling two dimensional, three dimensional or n dimensional vectors
+ 
+ 
+API
+====
+The API of MagikVector is documented below, some methods are chainable and some 
+methods have one or more aliases, both
+
+add
+---
+Adds given vector to the current vector, i.e. adds the individual coordinates.
+
+clone
+-----
+Returns a clone of the current vector, i.e. creates a new Vector Object with the same coordinates as the current vector
+     
+
+constructor(...coordinates)
+---------------------------
+Initialise a new Vector instance with coordinates as arguments
+```js
+const vector2D = new MagikVector(12, 15);
+```
+
+divide
+------
+Divides the current vector by the supplied scallar or Vector value
+
+Alias: `div()`
+	
+dotProduct
+----------
+Returns the dot Product of the current Vector with the supplied Vector, 
+throws an Error if both Vectors do not have the same number of coordinates
+
+Alias: `dot()`
+    
+getCoordinate(index)
+--------------------
+Returns the coordinate at the specified index, consider using getX(), getY() 
+and getZ() to retrieve the coordinates of a 2D or 3D vector
+     
+getMagnitude()
+--------------
+Returns the magnitude of the vector
+
+getMagnitudeSquared
+-------------------
+
+getX
+----
+Returns the `x` coordinate of this Vector
+
+getY
+----
+Returns the `y` coordinate of this Vector
+
+getZ
+----
+Returns the `z` coordinate of this Vector
+
+limit
+-----
+Limits the magnitude of the Vector to the supplied scalar value
+
+multiply
+--------
+Multiplies the current Vector by value, you can supply either a scalar value 
+or a Vector
 
 
+normalise
+---------
+Normalises the Vector
+
+random
+------
+Returns a new Vector with random coordinates, defaults to a 3D vector
+
+setMagnitude
+------------
+Sets the magnitude of the Vector and returns the changed vector
+
+subtract
+--------
+subtracts given vector from the current vector, i.e. subtracts the individual 
+coordinates.
+
+Alias: `sub()`
+  
+toString  
+--------
+Returns the string representation of the Vector
 
 License
 =======
