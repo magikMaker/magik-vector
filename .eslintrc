@@ -36,6 +36,9 @@
         "after": true,
         "before": true,
         "overrides": {
+          "catch": {
+            "after": false
+          },
           "for": {
             "after": false
           },
