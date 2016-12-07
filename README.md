@@ -1,12 +1,12 @@
 MagikVector
 ===========
-Vector class for handling two dimensional, three dimensional or n dimensional vectors
+Vector class for 2D, 3D and multi dimensional vector calculations.
  
  
 API
 ====
 The API of MagikVector is documented below, some methods are chainable and some 
-methods have one or more aliases, both
+methods have one or more aliases.
 
 add
 ---
