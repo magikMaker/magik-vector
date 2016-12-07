@@ -44,7 +44,7 @@ divide
 ------
 Divides the current vector by the supplied scallar or Vector value
 
-Alias: `div()`
+Alias: `div()`   
 Chainable: yes
 	
 dotProduct
@@ -52,7 +52,7 @@ dotProduct
 Returns the dot Product of the current Vector with the supplied Vector, 
 throws an Error if both Vectors do not have the same number of coordinates
 
-Alias: `dot()`
+Alias: `dot()`   
 Chainable: yes
     
 getCoordinate(index)
@@ -60,7 +60,7 @@ getCoordinate(index)
 Returns the coordinate at the specified index, consider using getX(), getY() 
 and getZ() to retrieve the coordinates of a 2D or 3D vector
 
-Alias: `getCoord()`
+Alias: `getCoord(index)`   
 Chainable: no
      
 getMagnitude()
@@ -110,7 +110,7 @@ normalise
 ---------
 Normalises the Vector
 
-Alias: `normalize()`
+Alias: `normalize()`   
 Chainable: yes
 
 random
@@ -124,7 +124,7 @@ setCoordinate(index, value)
 Sets the coordinate at the specified index, consider using setX(), setY() 
 and setZ() to set the coordinates of a 2D or 3D vector
 
-Alias: `setCoord(index, value)`
+Alias: `setCoord(index, value)`   
 Chainable: yes
 
 setMagnitude
@@ -156,7 +156,7 @@ subtract
 subtracts given vector from the current vector, i.e. subtracts the individual 
 coordinates.
 
-Alias: `sub()`
+Alias: `sub()`      
 Chainable: yes
   
 toString  
