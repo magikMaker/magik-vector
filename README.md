@@ -12,10 +12,13 @@ add
 ---
 Adds given vector to the current vector, i.e. adds the individual coordinates.
 
+Chainable: yes
+
 clone
 -----
 Returns a clone of the current vector, i.e. creates a new Vector Object with the same coordinates as the current vector
-     
+  
+Chainable: yes     
 
 constructor(...coordinates)
 ---------------------------
@@ -42,6 +45,7 @@ divide
 Divides the current vector by the supplied scallar or Vector value
 
 Alias: `div()`
+Chainable: yes
 	
 dotProduct
 ----------
@@ -49,52 +53,103 @@ Returns the dot Product of the current Vector with the supplied Vector,
 throws an Error if both Vectors do not have the same number of coordinates
 
 Alias: `dot()`
+Chainable: yes
     
 getCoordinate(index)
 --------------------
 Returns the coordinate at the specified index, consider using getX(), getY() 
 and getZ() to retrieve the coordinates of a 2D or 3D vector
+
+Alias: `getCoord()`
+Chainable: no
      
 getMagnitude()
 --------------
 Returns the magnitude of the vector
 
+Chainable: no
+
 getMagnitudeSquared
 -------------------
+Returns the magnitude squared
+
+Chainable: no
 
 getX
 ----
 Returns the `x` coordinate of this Vector
 
+Chainable: no
+
 getY
 ----
 Returns the `y` coordinate of this Vector
+
+Chainable: no
 
 getZ
 ----
 Returns the `z` coordinate of this Vector
 
+Chainable: no
+
 limit
 -----
 Limits the magnitude of the Vector to the supplied scalar value
+
+Chainable: yes
 
 multiply
 --------
 Multiplies the current Vector by value, you can supply either a scalar value 
 or a Vector
 
+Chainable: yes
 
 normalise
 ---------
 Normalises the Vector
 
+Alias: `normalize()`
+Chainable: yes
+
 random
 ------
 Returns a new Vector with random coordinates, defaults to a 3D vector
 
+Chainable: no
+
+setCoordinate(index, value)
+---------------------------
+Sets the coordinate at the specified index, consider using setX(), setY() 
+and setZ() to set the coordinates of a 2D or 3D vector
+
+Alias: `setCoord(index, value)`
+Chainable: yes
+
 setMagnitude
 ------------
 Sets the magnitude of the Vector and returns the changed vector
+
+Chainable: yes
+
+getX
+----
+Sets the `x` coordinate of this Vector
+
+Chainable: yes
+
+getY
+----
+Sets the `y` coordinate of this Vector
+
+Chainable: yes
+
+getZ
+----
+Sets the `z` coordinate of this Vector
+
+Chainable: yes
 
 subtract
 --------
@@ -102,10 +157,13 @@ subtracts given vector from the current vector, i.e. subtracts the individual
 coordinates.
 
 Alias: `sub()`
+Chainable: yes
   
 toString  
 --------
 Returns the string representation of the Vector
+
+Chainable: no
 
 License
 =======
