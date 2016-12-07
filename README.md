@@ -22,6 +22,8 @@ constructor(...coordinates)
 Initialise a new Vector instance with coordinates as arguments
 ```js
 const vector2D = new MagikVector(12, 15);
+const vector3D = new MagikVector(12, 15, 71);
+const multiDimensional = new MagikVector(3, 4, 5, 99, 12, 14, 42);
 ```
 
 divide
