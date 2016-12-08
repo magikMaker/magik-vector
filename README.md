@@ -8,14 +8,14 @@ API
 The API of MagikVector is documented below, some methods are chainable and some 
 methods have one or more aliases.
 
-add
----
+add()
+-----
 Adds given vector to the current vector, i.e. adds the individual coordinates.
 
 Chainable: yes
 
-clone
------
+clone()
+-------
 Returns a clone of the current vector, i.e. creates a new Vector Object with the same coordinates as the current vector
   
 Chainable: yes     
@@ -40,15 +40,15 @@ const myCoordinates = [4, 6, 28, 5, 33, 12, 8, 22, 785, 38, 56];
 const multiDimensional = new MagikVector(...myCoordinates);
 ```
 
-divide
-------
+divide()
+--------
 Divides the current vector by the supplied scallar or Vector value
 
 Alias: `div()`   
 Chainable: yes
 	
-dotProduct
-----------
+dotProduct()
+------------
 Returns the dot Product of the current Vector with the supplied Vector, 
 throws an Error if both Vectors do not have the same number of coordinates
 
@@ -76,58 +76,65 @@ Calculates the direction, i.e. the angle of rotation for this vector
 Alias: `getDir()`        
 Chainable: no     
 
+getDistanceTo()
+---------------
+Returns the calculated distance from the current Vector to the supplied one.
+
+Chainable: no        
+Aliases: `getDistance()`, `getDist()`   
+
 getMagnitude()
 --------------
 Returns the magnitude of the vector
 
 Chainable: no
 
-getMagnitudeSquared
--------------------
+getMagnitudeSquared()
+---------------------
 Returns the magnitude squared
 
 Chainable: no
 
-getX
-----
+getX()
+------
 Returns the `x` coordinate of this Vector
 
 Chainable: no
 
-getY
-----
+getY()
+------
 Returns the `y` coordinate of this Vector
 
 Chainable: no
 
-getZ
-----
+getZ()
+------
 Returns the `z` coordinate of this Vector
 
 Chainable: no
 
-limit
------
+limit()
+-------
 Limits the magnitude of the Vector to the supplied scalar value
 
 Chainable: yes
 
-multiply
---------
+multiply()
+----------
 Multiplies the current Vector by value, you can supply either a scalar value 
 or a Vector
 
 Chainable: yes
 
-normalise
----------
+normalise()
+-----------
 Normalises the Vector
 
 Alias: `normalize()`   
 Chainable: yes
 
-random
-------
+random()
+--------
 Returns a new Vector with random coordinates, defaults to a 3D vector
 
 Chainable: no
@@ -140,40 +147,40 @@ and setZ() to set the coordinates of a 2D or 3D vector
 Alias: `setCoord(index, value)`   
 Chainable: yes
 
-setMagnitude
-------------
+setMagnitude()
+--------------
 Sets the magnitude of the Vector and returns the changed vector
 
 Chainable: yes
 
-getX
-----
+setX()
+------
 Sets the `x` coordinate of this Vector
 
 Chainable: yes
 
-getY
-----
+setY()
+------
 Sets the `y` coordinate of this Vector
 
 Chainable: yes
 
-getZ
-----
+getZ()
+------
 Sets the `z` coordinate of this Vector
 
 Chainable: yes
 
-subtract
---------
+subtract()
+----------
 subtracts given vector from the current vector, i.e. subtracts the individual 
 coordinates.
 
 Alias: `sub()`      
 Chainable: yes
   
-toString  
---------
+toString()  
+----------
 Returns the string representation of the Vector
 
 Chainable: no
