@@ -62,7 +62,20 @@ and getZ() to retrieve the coordinates of a 2D or 3D vector
 
 Alias: `getCoord(index)`   
 Chainable: no
-     
+
+    /**
+     * 
+     *
+     * @return {Number} the angle of rotation
+     */
+getDirection()
+--------------
+Calculates the direction, i.e. the angle of rotation for this vector 
+(only for 2D vectors)
+
+Alias: `getDir()`        
+Chainable: no     
+
 getMagnitude()
 --------------
 Returns the magnitude of the vector
