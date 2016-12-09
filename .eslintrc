@@ -70,6 +70,19 @@
         "allowForLoopAfterthoughts": true
       }
     ],
+    "no-mixed-operators": [
+      "error",
+      {
+        "groups": [
+          ["+", "-", "*", "/", "%", "**"],
+          ["&", "|", "^", "~", "<<", ">>", ">>>"],
+          ["==", "!=", "===", "!==", ">", ">=", "<", "<="],
+          ["&&", "||"],
+          ["in", "instanceof"]
+        ],
+        "allowSamePrecedence": true
+      }
+    ],
     "object-curly-spacing": [
       "error",
       "never"
