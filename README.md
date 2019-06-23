@@ -188,7 +188,7 @@ Chainable: no
 License
 =======
 
-Copyright (C) 2016 Bjørn Wikkeling (magikMaker)
+Copyright (C) 2016 - 2019 Bjørn Wikkeling (magikMaker)
 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of 
