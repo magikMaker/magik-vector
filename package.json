@@ -15,7 +15,8 @@
     "start": "yarn run test:watcher",
     "server": "nodemon --exec \"yarn run test && yarn run lint && yarn run server\"",
     "test": "yarn run test:unit && yarn run test:coverage",
-    "test:coverage": "istanbul cover --include-all-sources _mocha -- --opts ./config/mocha.opts",
+    "test:coverage": "nyc report --reporter=text-summary --reporter=html mocha -- --opts ./config/mocha.opts",
+    "test:coverage:ci": "nyc report --reporter=clover --reporter=lcov",
     "test:unit": "mocha --opts ./config/mocha.opts",
     "test:watcher": "nodemon --exec \"yarn run lint && yarn run test\""
   },
@@ -40,11 +41,11 @@
     "eslint-config-airbnb-base": "^10.0.1",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-mocha": "^4.7.0",
-    "istanbul": "^0.4.5",
     "magik-commit": "^1.0.2",
     "magik-contributors": "^1.0.3",
     "mocha": "^3.2.0",
-    "nodemon": "^1.11.0",
+    "nodemon": "^1.19.1",
+    "nyc": "^14.1.1",
     "proxyquire": "^1.7.10",
     "sinon": "^1.17.6",
     "sinon-chai": "^2.8.0"

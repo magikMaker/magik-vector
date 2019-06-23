@@ -13,18 +13,12 @@ jobs:
 
       - run:
           name: install dependencies
-          command: yarn install
+          command: yarn
 
       - save_cache:
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
             - ./node_modules
-
-      - run:
-          name: create directory for test results
-          command: |
-            mkdir -p ./test-results
-            mkdir -p ./test-results/jest
 
       - run:
           name: lint code
@@ -36,15 +30,5 @@ jobs:
 
       - run:
           name: code coverage
-          command: './node_modules/.bin/nyc report --reporter=text-lcov'
+          command: yarn test:coverage:ci
 
-      - store_artifacts:
-          path: test-results.xml
-          prefix: tests
-
-      - store_artifacts:
-          path: coverage
-          prefix: coverage
-
-      - store_test_results:
-          path: test-results.xml
