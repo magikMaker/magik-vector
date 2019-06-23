@@ -15,6 +15,7 @@
     "start": "yarn run test:watcher",
     "server": "nodemon --exec \"yarn run test && yarn run lint && yarn run server\"",
     "test": "yarn run test:unit && yarn run test:coverage",
+    "test:ci": "yarn run test:unit && yarn run test:coverage:ci",
     "test:coverage": "nyc report --reporter=text-summary --reporter=html mocha -- --opts ./config/mocha.opts",
     "test:coverage:ci": "nyc report --reporter=clover --reporter=lcov",
     "test:unit": "mocha --opts ./config/mocha.opts",
