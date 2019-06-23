@@ -1,6 +1,8 @@
 MagikVector
 ===========
 [![CircleCI](https://circleci.com/gh/magikMaker/magik-vector.svg?style=svg)](https://circleci.com/gh/magikMaker/magik-vector)
+[![NPM version](https://badge.fury.io/js/magik-vector.svg)](http://badge.fury.io/js/magik-vector)
+
 Vector class for 2D, 3D and multi dimensional vector calculations.
  
  
