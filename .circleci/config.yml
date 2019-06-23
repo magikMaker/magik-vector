@@ -26,9 +26,6 @@ jobs:
 
       - run:
           name: test code
-          command: yarn test
+          command: yarn test:ci
 
-      - run:
-          name: code coverage
-          command: yarn test:coverage:ci
 
