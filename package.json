@@ -1,6 +1,6 @@
 {
   "name": "magik-vector",
-  "version": "0.6.0",
+  "version": "0.6.2",
   "description": "Vector class for 2D, 3D and multi dimensional vector calculations",
   "main": "./lib/magik-vector.js",
   "repository": {
@@ -10,8 +10,11 @@
   "scripts": {
     "dev": "yarn run test:watcher",
     "doc": "esdoc --debug -c ./config/esdoc.json",
+    "doc:readme": "jsdoc2md -t config/readme-template.hbs ./lib/magik-vector.js  > README.md; echo",
     "lint": "eslint lib",
+    "lint:fix": "eslint --fix lib",
     "prebuild": "yarn run lint && yarn run test",
+    "prepublishOnly": "yarn doc:readme",
     "start": "yarn run test:watcher",
     "server": "nodemon --exec \"yarn run test && yarn run lint && yarn run server\"",
     "test": "yarn run test:unit && yarn run test:coverage",
@@ -21,6 +24,9 @@
     "test:unit": "mocha --opts ./config/mocha.opts",
     "test:watcher": "nodemon --exec \"yarn run lint && yarn run test\""
   },
+  "files": [
+    "lib/magik-vector.js"
+  ],
   "keywords": [
     "2D",
     "3D",
@@ -42,6 +48,7 @@
     "eslint-config-airbnb-base": "^10.0.1",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-mocha": "^4.7.0",
+    "jsdoc-to-markdown": "^5.0.0",
     "magik-commit": "^1.0.2",
     "magik-contributors": "^1.0.3",
     "mocha": "^3.2.0",
