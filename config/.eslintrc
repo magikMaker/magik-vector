@@ -1,0 +1,242 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "env": {
+    "mocha": true,
+    "node": true
+  },
+  "extends": "airbnb-base",
+  "plugins": [
+    "chai-friendly",
+    "mocha"
+  ],
+  "rules": {
+    "chai-friendly/no-unused-expressions": "error",
+    "newline-before-return": "error",
+    "no-unused-expressions": 0,
+    "no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "next"
+      }
+    ],
+    "linebreak-style": "off",
+    "arrow-body-style": [
+      "error",
+      "as-needed"
+    ],
+    "arrow-parens": [
+      "error",
+      "as-needed"
+    ],
+    "comma-dangle": [
+      "error",
+      "never"
+    ],
+    "global-require": "error",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+    "indent": [
+      "error",
+      4,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "keyword-spacing": [
+      "error",
+      {
+        "after": true,
+        "before": true,
+        "overrides": {
+          "catch": {
+            "after": false
+          },
+          "for": {
+            "after": false
+          },
+          "if": {
+            "after": false
+          },
+          "switch": {
+            "after": false
+          },
+          "while": {
+            "after": false
+          }
+        }
+      }
+    ],
+    "max-len": [
+      "warn",
+      {
+        "code": 120,
+        "ignoreUrls": true,
+        "ignoreComments": false,
+        "ignoreRegExpLiterals": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true,
+        "tabWidth": 4
+      }
+    ],
+    "no-confusing-arrow": 0,
+    "no-console": 0,
+    "no-extra-parens": [
+      "error",
+      "all",
+      {
+        "conditionalAssign": true,
+        "nestedBinaryExpressions": false,
+        "returnAssign": true
+      }
+    ],
+    "no-path-concat": "error",
+    "no-plusplus": 0,
+    "no-mixed-operators": [
+      "error",
+      {
+        "groups": [
+          [
+            "+",
+            "-",
+            "*",
+            "/",
+            "%",
+            "**"
+          ],
+          [
+            "&",
+            "|",
+            "^",
+            "~",
+            "<<",
+            ">>",
+            ">>>"
+          ],
+          [
+            "==",
+            "!=",
+            "===",
+            "!==",
+            ">",
+            ">=",
+            "<",
+            "<="
+          ],
+          [
+            "&&",
+            "||"
+          ],
+          [
+            "in",
+            "instanceof"
+          ]
+        ],
+        "allowSamePrecedence": true
+      }
+    ],
+    "no-multi-assign": 0,
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        max: 1,
+        maxBOF: 0,
+        maxEOF: 1
+      }
+    ],
+    "no-nested-ternary": 0,
+    "no-restricted-properties": [
+      "error",
+      {
+        "object": "arguments",
+        "property": "callee",
+        "message": "arguments.callee is deprecated"
+      },
+      {
+        "property": "__defineGetter__",
+        "message": "Please use Object.defineProperty instead."
+      },
+      {
+        "property": "__defineSetter__",
+        "message": "Please use Object.defineProperty instead."
+      }
+    ],
+    "no-use-before-define": 0,
+    "object-curly-spacing": [
+      "error",
+      "never"
+    ],
+    "padded-blocks": [
+      "error",
+      {
+        "blocks": "never",
+        "classes": "never",
+        "switches": "never"
+      }
+    ],
+    "quote-props": [
+      "error",
+      "as-needed",
+      {
+        "keywords": true,
+        "unnecessary": false
+      }
+    ],
+    "valid-jsdoc": [
+      "warn",
+      {
+        "matchDescription": ".{5,}\\s+",
+        "prefer": {
+          "arg": "param",
+          "argument": "param",
+          "augments": "extends",
+          "const": "constant",
+          "constructor": "class",
+          "desc": "description",
+          "defaultValue": "default",
+          "exception": "throws",
+          "fileoverview": "file",
+          "fires": "emit",
+          "func": "function",
+          "host": "external",
+          "overview": "file",
+          "private": "access private",
+          "prop": "property",
+          "protected": "access protected",
+          "public": "access public",
+          "return": "returns",
+          "virtual": "abstract"
+        },
+        "preferType": {
+          "Boolean": "boolean",
+          "Function": "function",
+          "Null": "null",
+          "Number": "number",
+          "Object": "object",
+          "String": "string",
+          "Symbol": "symbol",
+          "Undefined": "undefined"
+        },
+        "requireParamDescription": false,
+        "requireReturn": true,
+        "requireReturnDescription": false,
+        "requireReturnType": false
+      }
+    ]
+  },
+  "globals": {
+    "after": false,
+    "afterEach": false,
+    "before": false,
+    "beforeEach": false,
+    "describe": false,
+    "it": false,
+    "xit": false
+  }
+}

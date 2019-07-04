@@ -1,2 +1,4 @@
 --reporter spec
+--exclude node_modules/**
+--require config/chai.config
 lib/**/*.spec.js

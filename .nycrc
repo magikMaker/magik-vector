@@ -1,16 +1,27 @@
 {
+  "extends": "@istanbuljs/nyc-config-babel",
   "all": true,
+  "check-coverage": true,
   "exclude": [
     "lib/**/*.spec.js"
   ],
   "include": [
-    "lib/*.js",
-    "lib/magik-vector.js"
+    "lib/**/*.js"
+  ],
+  "instrument": true,
+  "reporter": [
+    "html",
+    "json",
+    "text"
   ],
   "watermarks": {
-    "branches": [80, 95],
-    "functions": [80, 95],
-    "lines": [80, 95],
-    "statements": [80, 95]
-  }
+    "branches": [60, 99],
+    "functions": [60, 99],
+    "lines": [60, 99],
+    "statements": [60, 99]
+  },
+  "branches": 60,
+  "functions": 60,
+  "lines": 60,
+  "statements": 60
 }
