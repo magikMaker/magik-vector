@@ -1,11 +1,11 @@
 {
-  "name": "magik-vector",
-  "version": "0.6.2",
+  "name": "@magikmaker/magik-vector",
+  "version": "0.7.0",
   "description": "Vector class for 2D, 3D and multi dimensional vector calculations",
   "main": "./lib/magik-vector.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:magikMaker/magik-vector.git"
+    "url": "git://github.com/magikMaker/magik-vector.git"
   },
   "scripts": {
     "dev": "yarn test:watcher",
