@@ -1,6 +1,6 @@
 [![CircleCI](https://circleci.com/gh/magikMaker/magik-vector.svg?style=svg)](https://circleci.com/gh/magikMaker/magik-vector)
 [![NPM version](https://badge.fury.io/js/magik-vector.svg)](http://badge.fury.io/js/magik-vector)
-[![npm module downloads](http://img.shields.io/npm/dt/magik-vector.svg)](https://www.npmjs.org/package/magik-vector)
+[![npm module downloads](http://img.shields.io/npm/dt/magik-vector.svg)](https://www.npmjs.org/package/magik-vector) [![Greenkeeper badge](https://badges.greenkeeper.io/magikMaker/magik-vector.svg)](https://greenkeeper.io/)
 
 <a name="module_MagikVector"></a>
 
