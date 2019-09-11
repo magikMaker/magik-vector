@@ -62,7 +62,7 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-chai-friendly": "^0.4.1",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-mocha": "^5.2.0",
+    "eslint-plugin-mocha": "^6.1.1",
     "jsdoc": "^3.5.5",
     "jsdoc-chameleon-template": "^1.0.2",
     "jsdoc-to-markdown": "^5.0.0",
