@@ -647,10 +647,10 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@istanbuljs/nyc-config-babel@^2.0.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@istanbuljs/nyc-config-babel/-/nyc-config-babel-2.1.1.tgz#45e9a3174d6e2d9a132304f35c38131839ec4ebb"
-  integrity sha512-cWcUCqHOYB+Mpumsv03uaE7rMvtmJn7pZ3llc+9gyqMFC93IVcUuuJ/mknoWsiuajcEjRCqKmhGaiAaXG6kzLA==
+"@istanbuljs/nyc-config-babel@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@istanbuljs/nyc-config-babel/-/nyc-config-babel-3.0.0.tgz#56d0a5250d92b9455c7507775fcb5cb7215fee29"
+  integrity sha512-mPnSPXfTRWCzYsT64PnuPlce6/hGMCdVVMgU2FenXipbUd+FDwUlqlTihXxpxWzcNVOp8M+L1t/kIcgoC8A7hg==
 
 "@sinonjs/commons@^1", "@sinonjs/commons@^1.0.2", "@sinonjs/commons@^1.4.0":
   version "1.4.0"
