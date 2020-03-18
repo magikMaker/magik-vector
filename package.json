@@ -68,7 +68,7 @@
     "jsdoc-to-markdown": "^5.0.0",
     "magik-commit": "^1.0.2",
     "magik-contributors": "^1.0.3",
-    "mocha": "^6.1.4",
+    "mocha": "^7.1.1",
     "nodemon": "^1.18.4",
     "nyc": "^14.1.1",
     "proxyquire": "^2.1.1",
