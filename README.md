@@ -5,8 +5,8 @@
 <a name="module_MagikVector"></a>
 
 ## MagikVector
-MagikVector class for handling 2 dimensional, 3 dimensional or n dimensional
-vectors
+Zero dependency class for handling 2 dimensional, 3 dimensional or n dimensional
+vectors.
 
 **Example**  
 ```js
