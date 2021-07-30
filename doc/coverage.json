@@ -1,0 +1,22 @@
+{
+  "coverage": "94.64%",
+  "expectCount": 56,
+  "actualCount": 53,
+  "files": {
+    "lib/load-methods.js": {
+      "expectCount": 4,
+      "actualCount": 2,
+      "undocumentLines": [
+        1,
+        2
+      ]
+    },
+    "lib/magik-vector.js": {
+      "expectCount": 52,
+      "actualCount": 51,
+      "undocumentLines": [
+        49
+      ]
+    }
+  }
+}

@@ -1,6 +1,6 @@
 [![CircleCI](https://circleci.com/gh/magikMaker/magik-vector.svg?style=svg)](https://circleci.com/gh/magikMaker/magik-vector)
 [![NPM version](https://badge.fury.io/js/magik-vector.svg)](http://badge.fury.io/js/magik-vector)
-[![npm module downloads](http://img.shields.io/npm/dt/magik-vector.svg)](https://www.npmjs.org/package/magik-vector) [![Greenkeeper badge](https://badges.greenkeeper.io/magikMaker/magik-vector.svg)](https://greenkeeper.io/)
+[![npm module downloads](http://img.shields.io/npm/dt/magik-vector.svg)](https://www.npmjs.org/package/magik-vector)
 
 <a name="module_MagikVector"></a>
 
@@ -464,7 +464,7 @@ degrees = MagikVector.toDegrees(radians);
 
 # License
 
-Copyright (C) 2016 - 2019 Bjørn Wikkeling (magikMaker)
+Copyright (C) 2016 - 2021 Bjørn Wikkeling (magikMaker)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in

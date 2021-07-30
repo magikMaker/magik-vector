@@ -1,0 +1,45 @@
+{
+  "source": "./src",
+  "destination": "./doc/",
+  "includes": [
+    "\\.js$"
+  ],
+  "excludes": [
+    "\\.spec\\.js$"
+  ],
+  "access": [
+    "public",
+    "protected"
+  ],
+  "autoPrivate": true,
+  "unexportIdentifier": false,
+  "undocumentIdentifier": true,
+  "builtinExternal": true,
+  "index": "./README.md",
+  "package": "./package.json",
+  "coverage": true,
+  "includeSource": true,
+  "test": {
+    "type": "mocha",
+    "source": "./src",
+    "includes": [
+      "spec\\.js$"
+    ],
+    "excludes": []
+  },
+  "title": "MagikVector",
+  "styles": [],
+  "scripts": [],
+  "plugins": [
+    {
+      "name": "esdoc-es7-plugin",
+      "option": null
+    }
+  ],
+  "manual": {
+    "changelog": [
+      "./CHANGELOG"
+    ]
+  },
+  "lint": true
+}

@@ -1,17 +1,53 @@
-/**
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">lib/magik-vector.js | MagikVector</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Vector class for 2D, 3D and multi dimensional vector calculations"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="MagikVector"><meta property="twitter:description" content="Vector class for 2D, 3D and multi dimensional vector calculations"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/magikMaker/magik-vector"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  </ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">lib/magik-vector.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/**
  * MagikVector class for handling 2 dimensional, 3 dimensional or n dimensional
  * vectors
  *
  * @module MagikVector
  * @example
  * // import the vector and create a new vector object
- * const MagikVector = import 'MagikVector';
+ * const MagikVector = import &apos;MagikVector&apos;;
  * const vector = new MagikVector();
  *
  * // initialise a new vector with `x` and `y` coordinates
  * const vector2D = new MagikVector(12, 42);
  *
- * // it's also possible to add a `z` coordinate
+ * // it&apos;s also possible to add a `z` coordinate
  * const vector3D = new MagikVector(15, 12, 71);
  *
  * // or even more coordinates
@@ -48,7 +84,7 @@ class MagikVector {
     constructor(...args) {
         this.coordinates = [];
 
-        args.forEach((coordinate, index) => {
+        args.forEach((coordinate, index) =&gt; {
             this.coordinates[index] = coordinate;
         });
     }
@@ -64,7 +100,7 @@ class MagikVector {
     static random(dimensions = 3) {
         const coordinates = [];
 
-        for(let i = 0; i < dimensions; ++i) {
+        for(let i = 0; i &lt; dimensions; ++i) {
             coordinates[i] = Math.random();
         }
 
@@ -144,7 +180,7 @@ class MagikVector {
     /**
      * Converts degrees to radians
      *
-     * @example <caption>Convert degrees to Radians</caption>
+     * @example &lt;caption&gt;Convert degrees to Radians&lt;/caption&gt;
      * radians = MagikVector.toRadians(degrees);
      * @param {number} degrees - the number of degrees to convert
      * @returns {number} - the converted degrees as radians
@@ -156,7 +192,7 @@ class MagikVector {
     /**
      * Converts radians to degrees
      *
-     * @example <caption>Convert Radian to degrees</caption>
+     * @example &lt;caption&gt;Convert Radian to degrees&lt;/caption&gt;
      * degrees = MagikVector.toDegrees(radians);
      * @param {number} radians - the number of radians to convert
      * @returns {number} - the converted radians as degrees
@@ -315,7 +351,7 @@ class MagikVector {
      * Sets the `x` coordinate of this MagikVector and returns the instance
      * so it can be chained.
      *
-     * @example <caption>set x coordinate and chain</caption>
+     * @example &lt;caption&gt;set x coordinate and chain&lt;/caption&gt;
      * const vector = new MagikVector();
      * vector.setX(33).setY(44).setZ(55);
      * @param {number} value - the value to set
@@ -331,7 +367,7 @@ class MagikVector {
      * Returns the `y` coordinate of this MagikVector and returns the instance
      * so it can be chained.
      *
-     * @example <caption>set y coordinate and chain</caption>
+     * @example &lt;caption&gt;set y coordinate and chain&lt;/caption&gt;
      * const vector = new MagikVector();
      * vector.setX(33).setY(44).setZ(55);
      * @param {number} value the value to set
@@ -347,7 +383,7 @@ class MagikVector {
      * Returns the `z` coordinate of this MagikVector and returns the instance
      * so it can be chained.
      *
-     * @example <caption>set z coordinate and chain</caption>
+     * @example &lt;caption&gt;set z coordinate and chain&lt;/caption&gt;
      * const vector = new MagikVector();
      * vector.setX(33).setY(44).setZ(55);
      * @param {number} value the value to set
@@ -365,7 +401,7 @@ class MagikVector {
      * `vector.y = 4` or `vector.setY()`,
      * `vector.z = 5` or `vector.setZ()`,
      * to set the coordinates of a 2D or 3D vector.
-     * Returns the instance so it's possible to chain this method.
+     * Returns the instance so it&apos;s possible to chain this method.
      *
      * @see MagikVector.x
      * @see MagikVector.setX()
@@ -409,7 +445,7 @@ class MagikVector {
             throw new RangeError(`add(): Vectors must have the same number of coordinates, got ${this.length} and ${vector.length}`);
         }
 
-        this.coordinates.forEach((coordinate, index) => {
+        this.coordinates.forEach((coordinate, index) =&gt; {
             this.coordinates[index] += vector.coordinates[index];
         });
 
@@ -428,7 +464,7 @@ class MagikVector {
             throw new RangeError(`subtract(): Vectors must have the same number of coordinates, got ${this.length} and ${vector.length}`);
         }
 
-        this.coordinates.forEach((coordinate, index) => {
+        this.coordinates.forEach((coordinate, index) =&gt; {
             this.coordinates[index] -= vector.coordinates[index];
         });
 
@@ -454,8 +490,8 @@ class MagikVector {
      * @returns {MagikVector|number} - returns the current MagikVector instance
      */
     multiply(value) {
-        if(typeof value === 'number') {
-            this.coordinates.forEach((coordinate, index) => {
+        if(typeof value === &apos;number&apos;) {
+            this.coordinates.forEach((coordinate, index) =&gt; {
                 this.coordinates[index] *= value;
             });
         } else if(value instanceof MagikVector) {
@@ -465,7 +501,7 @@ class MagikVector {
                 );
             }
 
-            this.coordinates.forEach((coordinate, index) => {
+            this.coordinates.forEach((coordinate, index) =&gt; {
                 this.coordinates[index] *= value.coordinates[index];
             });
         } else {
@@ -495,8 +531,8 @@ class MagikVector {
      * @returns {MagikVector} - the divided MagikVector
      */
     divide(value) {
-        if(typeof value === 'number') {
-            this.coordinates.forEach((coordinate, index) => {
+        if(typeof value === &apos;number&apos;) {
+            this.coordinates.forEach((coordinate, index) =&gt; {
                 this.coordinates[index] /= value;
             });
         } else if(value instanceof MagikVector) {
@@ -504,7 +540,7 @@ class MagikVector {
                 throw new Error(`divide(): Vectors must have the same number of coordinates, got ${this.length} and ${value.length}`);
             }
 
-            this.coordinates.forEach((coordinate, index) => {
+            this.coordinates.forEach((coordinate, index) =&gt; {
                 this.coordinates[index] /= value.coordinates[index];
             });
         } else {
@@ -545,7 +581,7 @@ class MagikVector {
     getMagnitudeSquared() {
         let sum = 0;
 
-        this.coordinates.forEach(coordinate => {
+        this.coordinates.forEach(coordinate =&gt; {
             sum += coordinate * coordinate;
         });
 
@@ -686,7 +722,7 @@ class MagikVector {
 
         let sum = 0;
         // TODO refactor to use .reduce()
-        this.coordinates.forEach((coordinate, index) => {
+        this.coordinates.forEach((coordinate, index) =&gt; {
             sum += this.coordinates[index] * vector.coordinates[index];
         });
 
@@ -711,7 +747,7 @@ class MagikVector {
      */
     normalise() {
         const magnitude = this.getMagnitude();
-        this.coordinates.forEach((coordinate, index) => {
+        this.coordinates.forEach((coordinate, index) =&gt; {
             this.coordinates[index] = coordinate / magnitude;
         });
 
@@ -735,7 +771,7 @@ class MagikVector {
      * @returns {MagikVector} - the current instance
      */
     limit(scalar) {
-        if(this.getMagnitude() > scalar) {
+        if(this.getMagnitude() &gt; scalar) {
             this.normalise();
             this.multiply(scalar);
         }
@@ -749,10 +785,27 @@ class MagikVector {
      * @returns {string} - a string representation of the Vector
      */
     toString() {
-        return `(${this.coordinates.join(', ')})`;
+        return `(${this.coordinates.join(&apos;, &apos;)})`;
     }
 }
 
-if(typeof exports === 'object' && typeof module !== 'undefined') {
+if(typeof exports === &apos;object&apos; &amp;&amp; typeof module !== &apos;undefined&apos;) {
     module.exports = MagikVector;
 }
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

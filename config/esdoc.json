@@ -1,45 +1,40 @@
 {
-  "source": "./src",
-  "destination": "./doc/",
+  "source": "./lib",
+  "destination": "./doc",
   "includes": [
     "\\.js$"
   ],
   "excludes": [
     "\\.spec\\.js$"
   ],
-  "access": [
-    "public",
-    "protected"
-  ],
-  "autoPrivate": true,
-  "unexportIdentifier": false,
-  "undocumentIdentifier": true,
-  "builtinExternal": true,
-  "index": "./README.md",
-  "package": "./package.json",
-  "coverage": true,
-  "includeSource": true,
-  "test": {
-    "type": "mocha",
-    "source": "./src",
-    "includes": [
-      "spec\\.js$"
-    ],
-    "excludes": []
-  },
-  "title": "MagikVector",
-  "styles": [],
-  "scripts": [],
   "plugins": [
     {
-      "name": "esdoc-es7-plugin",
-      "option": null
+      "name": "esdoc-standard-plugin",
+      "option": {
+        "lint": {
+          "enable": true
+        },
+        "coverage": {
+          "enable": true
+        },
+        "accessor": {
+          "access": [
+            "public",
+            "protected"
+          ],
+          "autoPrivate": true
+        },
+        "undocumentIdentifier": {"enable": true},
+        "unexportedIdentifier": {"enable": false},
+        "typeInference": {"enable": true},
+        "brand": {
+          "title": "MagikVector",
+          "description": "Vector class for 2D, 3D and multi dimensional vector calculations",
+          "repository": "https://github.com/magikMaker/magik-vector",
+          "site": "https://github.com/magikMaker",
+          "author": "https://github.com/magikMaker"
+        }
+      }
     }
-  ],
-  "manual": {
-    "changelog": [
-      "./CHANGELOG"
-    ]
-  },
-  "lint": true
+  ]
 }

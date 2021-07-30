@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl">
+  <title data-ice="title">Home | MagikVector</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Vector class for 2D, 3D and multi dimensional vector calculations"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="MagikVector"><meta property="twitter:description" content="Vector class for 2D, 3D and multi dimensional vector calculations"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/magikMaker/magik-vector"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  </ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><p><a href="https://circleci.com/gh/magikMaker/magik-vector"><img src="https://circleci.com/gh/magikMaker/magik-vector.svg?style=svg" alt="CircleCI"></a>
+<a href="http://badge.fury.io/js/magik-vector"><img src="https://badge.fury.io/js/magik-vector.svg" alt="NPM version"></a>
+<a href="https://www.npmjs.org/package/magik-vector"><img src="http://img.shields.io/npm/dt/magik-vector.svg" alt="npm module downloads"></a></p>
+<p><a name="module_MagikVector"></a></p>
+<h2 id="magikvector">MagikVector</h2><p>Class for handling 2 dimensional, 3 dimensional or n dimensional vectors</p>
+<p><strong>Example</strong>  </p>
+<pre><code class="lang-js"><code class="source-code prettyprint">// import the vector and create a new vector object
+const MagikVector = import &apos;MagikVector&apos;;
+const vector = new MagikVector();
+
+// initialise a new vector with `x` and `y` coordinates
+const vector2D = new MagikVector(12, 42);
+
+// it&apos;s also possible to add a `z` coordinate
+const vector3D = new MagikVector(15, 12, 71);
+
+// or even more coordinates
+const multiDimensional = new MagikVector(15, 12, 71, 7, 38, 0);
+
+// create a MagikVector from an Array
+const myCoordinates = [4, 6, 28, 5, 33, 12, 8, 22, 785, 38, 56];
+const multiDimensional = new MagikVector(...myCoordinates);</code>
+</code></pre>
+<ul>
+<li><a href="#module_MagikVector">MagikVector</a><ul>
+<li><a href="#module_MagikVector..MagikVector">~MagikVector</a><ul>
+<li><a href="#new_module_MagikVector..MagikVector_new">new MagikVector([...args])</a></li>
+<li><em>instance</em><ul>
+<li><a href="#module_MagikVector..MagikVector+length">.length</a> &#x21D2; <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector+x">.x</a> &#x21D2; <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector+y">.y</a> &#x21D2; <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector+z">.z</a> &#x21D2; <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector+x">.x</a> &#x21D2; <code>void</code></li>
+<li><a href="#module_MagikVector..MagikVector+y">.y</a> &#x21D2; <code>void</code></li>
+<li><a href="#module_MagikVector..MagikVector+z">.z</a> &#x21D2; <code>void</code></li>
+<li><a href="#module_MagikVector..MagikVector+getCoordinate">.getCoordinate(index)</a> &#x21D2; <code>number</code> | <code>undefined</code></li>
+<li><a href="#module_MagikVector..MagikVector+setCoordinate">.setCoordinate(index, value)</a> &#x21D2; <code>MagikVector</code></li>
+<li><a href="#module_MagikVector..MagikVector+add">.add(vector)</a> &#x21D2; <code>MagikVector</code></li>
+<li><a href="#module_MagikVector..MagikVector+subtract">.subtract(vector)</a> &#x21D2; <code>MagikVector</code></li>
+<li><a href="#module_MagikVector..MagikVector+multiply">.multiply(value)</a> &#x21D2; <code>MagikVector</code> | <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector+divide">.divide(value)</a> &#x21D2; <code>MagikVector</code></li>
+<li><a href="#module_MagikVector..MagikVector+clone">.clone()</a> &#x21D2; <code>MagikVector</code></li>
+<li><a href="#module_MagikVector..MagikVector+getMagnitudeSquared">.getMagnitudeSquared()</a> &#x21D2; <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector+getMagnitude">.getMagnitude()</a> &#x21D2; <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector+setMagnitude">.setMagnitude(magnitude)</a> &#x21D2; <code>MagikVector</code></li>
+<li><a href="#module_MagikVector..MagikVector+getDirection">.getDirection()</a> &#x21D2; <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector+getDistanceTo">.getDistanceTo(vector)</a> &#x21D2; <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector+dotProduct">.dotProduct(vector)</a> &#x21D2; <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector+normalise">.normalise()</a> &#x21D2; <code>MagikVector</code></li>
+<li><a href="#module_MagikVector..MagikVector+limit">.limit(scalar)</a> &#x21D2; <code>MagikVector</code></li>
+<li><a href="#module_MagikVector..MagikVector+toString">.toString()</a> &#x21D2; <code>string</code></li>
+</ul>
+</li>
+<li><em>static</em><ul>
+<li><a href="#module_MagikVector..MagikVector.random">.random([dimensions])</a> &#x21D2; <code>MagikVector</code></li>
+<li><a href="#module_MagikVector..MagikVector.random2D">.random2D()</a> &#x21D2; <code>MagikVector</code></li>
+<li><a href="#module_MagikVector..MagikVector.randomInteger">.randomInteger([minimum], [maximum])</a> &#x21D2; <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector.toRadians">.toRadians(degrees)</a> &#x21D2; <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector.toDegrees">.toDegrees(radians)</a> &#x21D2; <code>number</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><a name="module_MagikVector..MagikVector"></a></p>
+<h3 id="magikvector-magikvector">MagikVector~MagikVector</h3><p><strong>Kind</strong>: inner class of <a href="#module_MagikVector"><code>MagikVector</code></a>  </p>
+<ul>
+<li><a href="#module_MagikVector..MagikVector">~MagikVector</a><ul>
+<li><a href="#new_module_MagikVector..MagikVector_new">new MagikVector([...args])</a></li>
+<li><em>instance</em><ul>
+<li><a href="#module_MagikVector..MagikVector+length">.length</a> &#x21D2; <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector+x">.x</a> &#x21D2; <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector+y">.y</a> &#x21D2; <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector+z">.z</a> &#x21D2; <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector+x">.x</a> &#x21D2; <code>void</code></li>
+<li><a href="#module_MagikVector..MagikVector+y">.y</a> &#x21D2; <code>void</code></li>
+<li><a href="#module_MagikVector..MagikVector+z">.z</a> &#x21D2; <code>void</code></li>
+<li><a href="#module_MagikVector..MagikVector+getCoordinate">.getCoordinate(index)</a> &#x21D2; <code>number</code> | <code>undefined</code></li>
+<li><a href="#module_MagikVector..MagikVector+setCoordinate">.setCoordinate(index, value)</a> &#x21D2; <code>MagikVector</code></li>
+<li><a href="#module_MagikVector..MagikVector+add">.add(vector)</a> &#x21D2; <code>MagikVector</code></li>
+<li><a href="#module_MagikVector..MagikVector+subtract">.subtract(vector)</a> &#x21D2; <code>MagikVector</code></li>
+<li><a href="#module_MagikVector..MagikVector+multiply">.multiply(value)</a> &#x21D2; <code>MagikVector</code> | <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector+divide">.divide(value)</a> &#x21D2; <code>MagikVector</code></li>
+<li><a href="#module_MagikVector..MagikVector+clone">.clone()</a> &#x21D2; <code>MagikVector</code></li>
+<li><a href="#module_MagikVector..MagikVector+getMagnitudeSquared">.getMagnitudeSquared()</a> &#x21D2; <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector+getMagnitude">.getMagnitude()</a> &#x21D2; <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector+setMagnitude">.setMagnitude(magnitude)</a> &#x21D2; <code>MagikVector</code></li>
+<li><a href="#module_MagikVector..MagikVector+getDirection">.getDirection()</a> &#x21D2; <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector+getDistanceTo">.getDistanceTo(vector)</a> &#x21D2; <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector+dotProduct">.dotProduct(vector)</a> &#x21D2; <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector+normalise">.normalise()</a> &#x21D2; <code>MagikVector</code></li>
+<li><a href="#module_MagikVector..MagikVector+limit">.limit(scalar)</a> &#x21D2; <code>MagikVector</code></li>
+<li><a href="#module_MagikVector..MagikVector+toString">.toString()</a> &#x21D2; <code>string</code></li>
+</ul>
+</li>
+<li><em>static</em><ul>
+<li><a href="#module_MagikVector..MagikVector.random">.random([dimensions])</a> &#x21D2; <code>MagikVector</code></li>
+<li><a href="#module_MagikVector..MagikVector.random2D">.random2D()</a> &#x21D2; <code>MagikVector</code></li>
+<li><a href="#module_MagikVector..MagikVector.randomInteger">.randomInteger([minimum], [maximum])</a> &#x21D2; <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector.toRadians">.toRadians(degrees)</a> &#x21D2; <code>number</code></li>
+<li><a href="#module_MagikVector..MagikVector.toDegrees">.toDegrees(radians)</a> &#x21D2; <code>number</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><a name="new_module_MagikVector..MagikVector_new"></a></p>
+<h4 id="new-magikvector-----args--">new MagikVector([...args])</h4><p>Initialise a new Vector instance with coordinates as arguments, either
+supply the individual coordinates or supply an array with number values.</p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[...args]</td>
+<td><code>number</code> \</td>
+<td><code>array</code></td>
+<td>optional coordinate list or Array</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example</strong>  </p>
+<pre><code class="lang-js"><code class="source-code prettyprint">// empty vector
+const vector = new MagikVector();
+
+// two dimensional
+const vector2D = new MagikVector(12, 15);
+
+// three dimensional
+const vector3D = new MagikVector(12, 15, 71);
+
+// multi dimensional
+const multiDimensional = new MagikVector(3, 4, 5, 99, 12, 14, 42);
+
+// from Array
+const myCoordinates = [4, 6, 28, 5, 33, 12, 8, 22, 785, 38, 56];
+const multiDimensional = new MagikVector(...myCoordinates);</code>
+</code></pre>
+<p><a name="module_MagikVector..MagikVector+length"></a></p>
+<h4 id="magikvector-length-&#x21D2;--code-number--code-">magikVector.length &#x21D2; <code>number</code></h4><p>Returns the length of the coordinates array, in other words the number
+of dimensions of this Vector</p>
+<p><strong>Kind</strong>: instance property of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a><br><strong>Returns</strong>: <code>number</code> - the number of dimensions of this Vector<br><a name="module_MagikVector..MagikVector+x"></a></p>
+<h4 id="magikvector-x-&#x21D2;--code-number--code-">magikVector.x &#x21D2; <code>number</code></h4><p>Returns the <code>x</code> coordinate of this Vector.</p>
+<p><strong>Kind</strong>: instance property of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a><br><strong>Returns</strong>: <code>number</code> - the <code>x</code> coordinate of this vector<br><strong>Example</strong>  </p>
+<pre><code class="lang-js"><code class="source-code prettyprint">const vector = new MagikVector(3, 4, 5);
+const xCoordinate = vector.x; // returns 3</code>
+</code></pre>
+<p><a name="module_MagikVector..MagikVector+y"></a></p>
+<h4 id="magikvector-y-&#x21D2;--code-number--code-">magikVector.y &#x21D2; <code>number</code></h4><p>Returns the <code>y</code> coordinate of this Vector.</p>
+<p><strong>Kind</strong>: instance property of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a><br><strong>Returns</strong>: <code>number</code> - the <code>y</code> coordinate of this vector<br><strong>Example</strong>  </p>
+<pre><code class="lang-js"><code class="source-code prettyprint">const vector = new MagikVector(3, 4, 5);
+const yCoordinate = vector.y; // returns 4</code>
+</code></pre>
+<p><a name="module_MagikVector..MagikVector+z"></a></p>
+<h4 id="magikvector-z-&#x21D2;--code-number--code-">magikVector.z &#x21D2; <code>number</code></h4><p>Returns the <code>z</code> coordinate of this Vector.</p>
+<p><strong>Kind</strong>: instance property of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a><br><strong>Returns</strong>: <code>number</code> - the <code>z</code> coordinate of this vector<br><strong>Example</strong>  </p>
+<pre><code class="lang-js"><code class="source-code prettyprint">const vector = new MagikVector(3, 4, 5);
+const zCoordinate = vector.z; // returns 5</code>
+</code></pre>
+<p><a name="module_MagikVector..MagikVector+x"></a></p>
+<h4 id="magikvector-x-&#x21D2;--code-void--code-">magikVector.x &#x21D2; <code>void</code></h4><p>Sets the <code>x</code> coordinate of this Vector.</p>
+<p><strong>Kind</strong>: instance property of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>value</td>
+<td><code>number</code></td>
+<td>the value to set as x coordinate</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example</strong>  </p>
+<pre><code class="lang-js"><code class="source-code prettyprint">const vector = new MagikVector();
+const vector.x = 3;</code>
+</code></pre>
+<p><a name="module_MagikVector..MagikVector+y"></a></p>
+<h4 id="magikvector-y-&#x21D2;--code-void--code-">magikVector.y &#x21D2; <code>void</code></h4><p>Sets  the <code>y</code> coordinate of this Vector.</p>
+<p><strong>Kind</strong>: instance property of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>value</td>
+<td><code>number</code></td>
+<td>the value to set as y coordinate</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example</strong>  </p>
+<pre><code class="lang-js"><code class="source-code prettyprint">const vector = new MagikVector();
+const vector.y = 4;</code>
+</code></pre>
+<p><a name="module_MagikVector..MagikVector+z"></a></p>
+<h4 id="magikvector-z-&#x21D2;--code-void--code-">magikVector.z &#x21D2; <code>void</code></h4><p>Sets the <code>y</code> coordinate of this Vector.</p>
+<p><strong>Kind</strong>: instance property of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>value</td>
+<td><code>number</code></td>
+<td>the value to set as z coordinate</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example</strong>  </p>
+<pre><code class="lang-js"><code class="source-code prettyprint">const vector = new MagikVector();
+const vector.z = 5;</code>
+</code></pre>
+<p><a name="module_MagikVector..MagikVector+getCoordinate"></a></p>
+<h4 id="magikvector-getcoordinate-index--&#x21D2;--code-number--code-----code-undefined--code-">magikVector.getCoordinate(index) &#x21D2; <code>number</code> | <code>undefined</code></h4><p>Returns the coordinate at the specified index, consider using getX(),
+getY() and getZ() to retrieve the coordinates of a 2D or 3D vector</p>
+<p><strong>Kind</strong>: instance method of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a><br><strong>Returns</strong>: <code>number</code> | <code>undefined</code> - the coordinate at the specified index or undefined<br><strong>See</strong></p>
+<ul>
+<li>MagikVector.x</li>
+<li>MagikVector.y</li>
+<li>MagikVector.z</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>index</td>
+<td><code>number</code></td>
+</tr>
+</tbody>
+</table>
+<p><a name="module_MagikVector..MagikVector+setCoordinate"></a></p>
+<h4 id="magikvector-setcoordinate-index--value--&#x21D2;--code-magikvector--code-">magikVector.setCoordinate(index, value) &#x21D2; <code>MagikVector</code></h4><p>Sets the coordinate at the specified index, consider using setX(),
+setY() and setZ() to set the coordinates of a 2D or 3D vector</p>
+<p><strong>Kind</strong>: instance method of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a><br><strong>Returns</strong>: <code>MagikVector</code> - the object itself<br><strong>See</strong></p>
+<ul>
+<li>MagikVector.x</li>
+<li>MagikVector.y</li>
+<li>MagikVector.z</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>index</td>
+<td><code>number</code></td>
+<td>the  index to set the value for</td>
+</tr>
+<tr>
+<td>value</td>
+<td><code>number</code></td>
+<td>the value to set</td>
+</tr>
+</tbody>
+</table>
+<p><a name="module_MagikVector..MagikVector+add"></a></p>
+<h4 id="magikvector-add-vector--&#x21D2;--code-magikvector--code-">magikVector.add(vector) &#x21D2; <code>MagikVector</code></h4><p>Adds given vector to the current vector, i.e. adds the individual
+coordinates.</p>
+<p><strong>Kind</strong>: instance method of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a><br><strong>Returns</strong>: <code>MagikVector</code> - returns the current Vector  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>vector</td>
+<td><code>MagikVector</code></td>
+</tr>
+</tbody>
+</table>
+<p><a name="module_MagikVector..MagikVector+subtract"></a></p>
+<h4 id="magikvector-subtract-vector--&#x21D2;--code-magikvector--code-">magikVector.subtract(vector) &#x21D2; <code>MagikVector</code></h4><p>subtracts given vector from the current vector, i.e. subtracts the
+individual coordinates.</p>
+<p><strong>Kind</strong>: instance method of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a><br><strong>Returns</strong>: <code>MagikVector</code> - returns the current Vector  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>vector</td>
+<td><code>MagikVector</code></td>
+</tr>
+</tbody>
+</table>
+<p><a name="module_MagikVector..MagikVector+multiply"></a></p>
+<h4 id="magikvector-multiply-value--&#x21D2;--code-magikvector--code-----code-number--code-">magikVector.multiply(value) &#x21D2; <code>MagikVector</code> | <code>number</code></h4><p>Multiplies the current Vector by value, you can supply either a scalar value
+or a Vector</p>
+<p><strong>Kind</strong>: instance method of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a><br><strong>Returns</strong>: <code>MagikVector</code> | <code>number</code> - returns the current Vector  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>value</td>
+<td><code>MagikVector</code> \</td>
+<td><code>number</code></td>
+<td>scalar or Vector to use to multiply</td>
+</tr>
+</tbody>
+</table>
+<p><a name="module_MagikVector..MagikVector+divide"></a></p>
+<h4 id="magikvector-divide-value--&#x21D2;--code-magikvector--code-">magikVector.divide(value) &#x21D2; <code>MagikVector</code></h4><p>Divides the current vector by the supplied scallar or Vector value</p>
+<p><strong>Kind</strong>: instance method of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a><br><strong>Returns</strong>: <code>MagikVector</code> - the divided MagikVector  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>value</td>
+<td><code>MagikVector</code> \</td>
+<td><code>number</code></td>
+<td>scalar or MagikVector to use to divide</td>
+</tr>
+</tbody>
+</table>
+<p><a name="module_MagikVector..MagikVector+clone"></a></p>
+<h4 id="magikvector-clone---&#x21D2;--code-magikvector--code-">magikVector.clone() &#x21D2; <code>MagikVector</code></h4><p>Returns a clone of the current vector, i.e. creates a new Vector Object with
+the same coordinates as the current vector</p>
+<p><strong>Kind</strong>: instance method of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a><br><a name="module_MagikVector..MagikVector+getMagnitudeSquared"></a></p>
+<h4 id="magikvector-getmagnitudesquared---&#x21D2;--code-number--code-">magikVector.getMagnitudeSquared() &#x21D2; <code>number</code></h4><p>Returns the magnitude squared</p>
+<p><strong>Kind</strong>: instance method of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a><br><a name="module_MagikVector..MagikVector+getMagnitude"></a></p>
+<h4 id="magikvector-getmagnitude---&#x21D2;--code-number--code-">magikVector.getMagnitude() &#x21D2; <code>number</code></h4><p>Returns the magnitude of the vector</p>
+<p><strong>Kind</strong>: instance method of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a><br><a name="module_MagikVector..MagikVector+setMagnitude"></a></p>
+<h4 id="magikvector-setmagnitude-magnitude--&#x21D2;--code-magikvector--code-">magikVector.setMagnitude(magnitude) &#x21D2; <code>MagikVector</code></h4><p>Sets the magnitude of the Vector and returns the changed vector</p>
+<p><strong>Kind</strong>: instance method of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a><br><strong>Returns</strong>: <code>MagikVector</code> - the adjusted MagikVector object  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>magnitude</td>
+<td><code>number</code></td>
+</tr>
+</tbody>
+</table>
+<p><a name="module_MagikVector..MagikVector+getDirection"></a></p>
+<h4 id="magikvector-getdirection---&#x21D2;--code-number--code-">magikVector.getDirection() &#x21D2; <code>number</code></h4><p>Calculates the direction, i.e. the angle of rotation for this vector
+(only for 2D vectors)</p>
+<p><strong>Kind</strong>: instance method of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a><br><strong>Returns</strong>: <code>number</code> - the angle of rotation in radians<br><a name="module_MagikVector..MagikVector+getDistanceTo"></a></p>
+<h4 id="magikvector-getdistanceto-vector--&#x21D2;--code-number--code-">magikVector.getDistanceTo(vector) &#x21D2; <code>number</code></h4><p>Returns the calculated distance from the current Vector to the supplied one</p>
+<p><strong>Kind</strong>: instance method of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a><br><strong>Returns</strong>: <code>number</code> - the distance between the two vectors  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>vector</td>
+<td><code>MagikVector</code></td>
+<td>the vector to calculate the distance to</td>
+</tr>
+</tbody>
+</table>
+<p><a name="module_MagikVector..MagikVector+dotProduct"></a></p>
+<h4 id="magikvector-dotproduct-vector--&#x21D2;--code-number--code-">magikVector.dotProduct(vector) &#x21D2; <code>number</code></h4><p>Returns the dot Product of the current Vector with the supplied Vector,
+throws an Error if both Vectors do not have the same number of
+coordinates</p>
+<p><strong>Kind</strong>: instance method of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>vector</td>
+<td><code>MagikVector</code></td>
+</tr>
+</tbody>
+</table>
+<p><a name="module_MagikVector..MagikVector+normalise"></a></p>
+<h4 id="magikvector-normalise---&#x21D2;--code-magikvector--code-">magikVector.normalise() &#x21D2; <code>MagikVector</code></h4><p>Normalises the Vector</p>
+<p><strong>Kind</strong>: instance method of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a><br><strong>Returns</strong>: <code>MagikVector</code> - the normalised Vector<br><a name="module_MagikVector..MagikVector+limit"></a></p>
+<h4 id="magikvector-limit-scalar--&#x21D2;--code-magikvector--code-">magikVector.limit(scalar) &#x21D2; <code>MagikVector</code></h4><p>Limits the magnitude of the Vector to the supplied scalar value</p>
+<p><strong>Kind</strong>: instance method of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>scalar</td>
+<td><code>number</code></td>
+</tr>
+</tbody>
+</table>
+<p><a name="module_MagikVector..MagikVector+toString"></a></p>
+<h4 id="magikvector-tostring---&#x21D2;--code-string--code-">magikVector.toString() &#x21D2; <code>string</code></h4><p>Returns the string representation of the Vector</p>
+<p><strong>Kind</strong>: instance method of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a><br><strong>Returns</strong>: <code>string</code> - the string representation of the Vector<br><a name="module_MagikVector..MagikVector.random"></a></p>
+<h4 id="magikvector-random--dimensions---&#x21D2;--code-magikvector--code-">MagikVector.random([dimensions]) &#x21D2; <code>MagikVector</code></h4><p>Returns a new vector with random coordinates, defaults to a 3D vector</p>
+<p><strong>Kind</strong>: static method of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[dimensions]</td>
+<td><code>number</code></td>
+<td><code>3</code></td>
+<td>optional number of dimensions to use</td>
+</tr>
+</tbody>
+</table>
+<p><a name="module_MagikVector..MagikVector.random2D"></a></p>
+<h4 id="magikvector-random2d---&#x21D2;--code-magikvector--code-">MagikVector.random2D() &#x21D2; <code>MagikVector</code></h4><p>Returns a new vector with two random coordinates</p>
+<p><strong>Kind</strong>: static method of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a><br><strong>Returns</strong>: <code>MagikVector</code> - the vector with two random values<br><a name="module_MagikVector..MagikVector.randomInteger"></a></p>
+<h4 id="magikvector-randominteger--minimum----maximum---&#x21D2;--code-number--code-">MagikVector.randomInteger([minimum], [maximum]) &#x21D2; <code>number</code></h4><p>Returns a random integer optionally bound by the minimum(included) and
+maximum (included) arguments. If only one argument is supplied, it is
+the maximum number (same as <code>MagikVector.randomInteger(0, maximum)</code>)</p>
+<p><strong>Kind</strong>: static method of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[minimum]</td>
+<td><code>number</code></td>
+<td>minimal value</td>
+</tr>
+<tr>
+<td>[maximum]</td>
+<td><code>number</code></td>
+<td>maximal value</td>
+</tr>
+</tbody>
+</table>
+<p><a name="module_MagikVector..MagikVector.toRadians"></a></p>
+<h4 id="magikvector-toradians-degrees--&#x21D2;--code-number--code-">MagikVector.toRadians(degrees) &#x21D2; <code>number</code></h4><p>Converts degrees to radians</p>
+<p><strong>Kind</strong>: static method of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>degrees</td>
+<td><code>number</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example</strong> <em>(Convert degrees to Radians)</em>  </p>
+<pre><code class="lang-js"><code class="source-code prettyprint">radians = MagikVector.toRadians(degrees);</code>
+</code></pre>
+<p><a name="module_MagikVector..MagikVector.toDegrees"></a></p>
+<h4 id="magikvector-todegrees-radians--&#x21D2;--code-number--code-">MagikVector.toDegrees(radians) &#x21D2; <code>number</code></h4><p>Converts radians to degrees</p>
+<p><strong>Kind</strong>: static method of <a href="#module_MagikVector..MagikVector"><code>MagikVector</code></a>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>radians</td>
+<td><code>number</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example</strong> <em>(Convert Radian to degrees)</em>  </p>
+<pre><code class="lang-js"><code class="source-code prettyprint">degrees = MagikVector.toDegrees(radians);</code>
+</code></pre>
+<h1 id="license">License</h1><p>Copyright (C) 2016 - 2021 Bj&#xF8;rn Wikkeling (magikMaker)</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the &quot;Software&quot;), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+THE AUTHORS OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</p>
+<p>Except as contained in this notice, the name(s) of the above copyright holders
+shall not be used in advertising or otherwise to promote the sale, use or other
+dealings in this Software without prior written authorization.</p>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

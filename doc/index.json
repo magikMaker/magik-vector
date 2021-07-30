@@ -1,0 +1,2730 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "lib/load-methods.js",
+    "content": "const fs = require('fs');\nconst path = require('path');\n\n/**\n * Converts a kebab-case string to camelCase\n *\n * @param {string} value the kebab-case string\n * @returns {string} the camelCased strimng\n */\nconst convertToCameCase = value => value.replace(/-([a-z])/g, capture => capture[1].toUpperCase());\n\n/**\n * Loads the actual file using `require()`\n *\n * @param name the file name of the plugin to load\n * @returns {*} the export of the loaded file\n */\n/* eslint-disable global-require, import/no-dynamic-require */\nconst loadFile = name => require(path.join(__dirname, 'plugins', name));\n/* eslint-enable global-require, import/no-dynamic-require */\n\nmodule.exports = exportsObject => {\n    // get all custom plugins from the plugins directory\n    fs.readdirSync(path.join(__dirname, 'plugins')).forEach(filename => {\n        // only load .js files (and not their associated unit tests)\n        if(!/\\.js$/.test(filename) || /\\.spec.js$/.test(filename)) {\n            return;\n        }\n\n        const name = convertToCameCase(path.basename(filename, '.js'));\n        Object.defineProperty(exportsObject, name, {value: loadFile});\n    });\n};\n",
+    "static": true,
+    "longname": "/Users/bjorn/projects/magikMaker/magik-vector/lib/load-methods.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "fs",
+    "memberof": "lib/load-methods.js",
+    "static": true,
+    "longname": "lib/load-methods.js~fs",
+    "access": "public",
+    "export": false,
+    "importPath": "@magikmaker/magik-vector/lib/load-methods.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "variable",
+    "name": "path",
+    "memberof": "lib/load-methods.js",
+    "static": true,
+    "longname": "lib/load-methods.js~path",
+    "access": "public",
+    "export": false,
+    "importPath": "@magikmaker/magik-vector/lib/load-methods.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "function",
+    "name": "convertToCameCase",
+    "memberof": "lib/load-methods.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/load-methods.js~convertToCameCase",
+    "access": "public",
+    "export": false,
+    "importPath": "@magikmaker/magik-vector/lib/load-methods.js",
+    "importStyle": null,
+    "description": "Converts a kebab-case string to camelCase",
+    "lineNumber": 10,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{string} the camelCased strimng"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": "the kebab-case string"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "the camelCased strimng"
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "function",
+    "name": "loadFile",
+    "memberof": "lib/load-methods.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/load-methods.js~loadFile",
+    "access": "public",
+    "export": false,
+    "importPath": "@magikmaker/magik-vector/lib/load-methods.js",
+    "importStyle": null,
+    "description": "Loads the actual file using `require()`",
+    "lineNumber": 19,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{*} the export of the loaded file"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": "the file name of the plugin to load"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "the export of the loaded file"
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 53,
+    "kind": "file",
+    "name": "lib/magik-vector.js",
+    "content": "/**\n * MagikVector class for handling 2 dimensional, 3 dimensional or n dimensional\n * vectors\n *\n * @module MagikVector\n * @example\n * // import the vector and create a new vector object\n * const MagikVector = import 'MagikVector';\n * const vector = new MagikVector();\n *\n * // initialise a new vector with `x` and `y` coordinates\n * const vector2D = new MagikVector(12, 42);\n *\n * // it's also possible to add a `z` coordinate\n * const vector3D = new MagikVector(15, 12, 71);\n *\n * // or even more coordinates\n * const multiDimensional = new MagikVector(15, 12, 71, 7, 38, 0);\n *\n * // create a MagikVector from an Array\n * const myCoordinates = [4, 6, 28, 5, 33, 12, 8, 22, 785, 38, 56];\n * const multiDimensional = new MagikVector(...myCoordinates);\n */\nclass MagikVector {\n    /**\n     * Initialise a new Vector instance with coordinates as arguments, either\n     * supply the individual coordinates or supply an array with number values.\n     *\n     * @example\n     * // empty vector\n     * const vector = new MagikVector();\n     *\n     * // two dimensional\n     * const vector2D = new MagikVector(12, 15);\n     *\n     * // three dimensional\n     * const vector3D = new MagikVector(12, 15, 71);\n     *\n     * // multi dimensional\n     * const multiDimensional = new MagikVector(3, 4, 5, 99, 12, 14, 42);\n     *\n     * // from Array\n     * const myCoordinates = [4, 6, 28, 5, 33, 12, 8, 22, 785, 38, 56];\n     * const multiDimensional = new MagikVector(...myCoordinates);\n     * @class\n     * @param {...number|array}[args] - optional coordinate list or Array\n     */\n    constructor(...args) {\n        this.coordinates = [];\n\n        args.forEach((coordinate, index) => {\n            this.coordinates[index] = coordinate;\n        });\n    }\n\n    /**\n     * Returns a new MagikVector with random coordinates, defaults to\n     * a normalised 3D vector\n     *\n     * @static\n     * @param {number} [dimensions=3] - optional number of dimensions to use\n     * @returns {MagikVector}\n     */\n    static random(dimensions = 3) {\n        const coordinates = [];\n\n        for(let i = 0; i < dimensions; ++i) {\n            coordinates[i] = Math.random();\n        }\n\n        return (new MagikVector(...coordinates)).normalise();\n    }\n\n    /**\n     * Alias for `random()`\n     *\n     * @static\n     * @borrows MagikVector#random as MagikVector#rand\n     * @param {number} [dimensions=3] - optional number of dimensions to use\n     * @returns {MagikVector} - instance of the MagikVector Class\n     */\n    static rand(dimensions) {\n        return MagikVector.random(dimensions);\n    }\n\n    /**\n     * Returns a new vector with two random coordinates\n     *\n     * @returns {MagikVector} - instance of MagikVector with two random values\n     */\n    static random2D() {\n        return MagikVector.random(2);\n    }\n\n    /**\n     * Returns a new vector with three random coordinates, basically this is an\n     * alias for calling MagikVector.random() without any arguments.\n     *\n     * @returns {MagikVector} - instance of MagikVector with three random values\n     */\n    static random3D() {\n        return MagikVector.random(3);\n    }\n\n    /**\n     * Returns a random integer optionally bound by the minimum(included) and\n     * maximum (included) arguments. If only one argument is supplied, it is\n     * the maximum number (same as `MagikVector.randomInteger(0, maximum)`)\n     *\n     * @param {Object} [args]\n     * @param {number} [args.minimum]- optional minimum value\n     * @param {number} [ars.maximum] - optional maximum value\n     * @returns {number} - the random number\n     */\n    static randomInteger(...args) {\n        // two arguments given, minimum and maximum\n        if(args.length === 2) {\n            const minimum = Math.ceil(args[0]);\n            const maximum = Math.floor(args[1]);\n\n            return Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;\n        }\n\n        const maximum = args[0] ? Math.floor(args[0]) : Number.MAX_SAFE_INTEGER;\n\n        return Math.floor(Math.random() * (maximum + 1));\n    }\n\n    /**\n     * Returns a random integer optionally bound by the minimum(included) and\n     * maximum (included) arguments. If only one argument is supplied, it is\n     * the maximum number (same as `MagikVector.randomInteger(0, maximum)`)\n     *\n     * @borrows MagikVector#randomInteger as MagikVector#randomInt\n     * @param {Object} [args]\n     * @param {number} [args.minimum]- optional minimum value\n     * @param {number} [ars.maximum] - optional maximum value\n     * @returns {number} - the random number\n     */\n    static randomInt(...args) {\n        return MagikVector.randomInteger(args);\n    }\n\n    /**\n     * Converts degrees to radians\n     *\n     * @example <caption>Convert degrees to Radians</caption>\n     * radians = MagikVector.toRadians(degrees);\n     * @param {number} degrees - the number of degrees to convert\n     * @returns {number} - the converted degrees as radians\n     */\n    static toRadians(degrees) {\n        return degrees * (Math.PI / 180);\n    }\n\n    /**\n     * Converts radians to degrees\n     *\n     * @example <caption>Convert Radian to degrees</caption>\n     * degrees = MagikVector.toDegrees(radians);\n     * @param {number} radians - the number of radians to convert\n     * @returns {number} - the converted radians as degrees\n     */\n    static toDegrees(radians) {\n        return radians * (180 / Math.PI);\n    }\n\n    /**\n     * Returns the length of the coordinates array, in other words the number\n     * of dimensions of this MagikVector\n     *\n     * @returns {number} - the number of dimensions of this MagikVector\n     */\n    get length() {\n        return this.coordinates.length;\n    }\n\n    /**\n     * Returns the `x` coordinate of this Vector.\n     *\n     * @example\n     * const vector = new MagikVector(3, 4, 5);\n     * const xCoordinate = vector.x; // returns 3\n     * @returns {number} - the `x` coordinate of this MagikVector instance\n     */\n    get x() {\n        return this.getX();\n    }\n\n    /**\n     * Returns the `y` coordinate of this Vector.\n     *\n     * @example\n     * const vector = new MagikVector(3, 4, 5);\n     * const yCoordinate = vector.y; // returns 4\n     * @returns {number} - the `y` coordinate of this MagikVector instance\n     */\n    get y() {\n        return this.getY();\n    }\n\n    /**\n     * Returns the `z` coordinate of this Vector.\n     *\n     * @example\n     * const vector = new MagikVector(3, 4, 5);\n     * const zCoordinate = vector.z; // returns 5\n     * @returns {number} - the `z` coordinate of this MagikVector instance\n     */\n    get z() {\n        return this.getZ();\n    }\n\n    /**\n     * Sets the `x` coordinate of this MagikVector instance.\n     *\n     * @example\n     * const vector = new MagikVector();\n     * const vector.x = 3;\n     * @param {number} value - the value to set as x coordinate\n     * @returns {void}\n     */\n    set x(value) {\n        this.coordinates[0] = value;\n    }\n\n    /**\n     * Sets  the `y` coordinate of this MagikVector instance.\n     *\n     * @example\n     * const vector = new MagikVector();\n     * const vector.y = 4;\n     * @param {number} value - the value to set as y coordinate\n     * @returns {void}\n     */\n    set y(value) {\n        this.coordinates[1] = value;\n    }\n\n    /**\n     * Sets the `z` coordinate of this MagikVector instance.\n     *\n     * @example\n     * const vector = new MagikVector();\n     * const vector.z = 5;\n     * @param {number} value - the value to set as z coordinate\n     * @returns {void}\n     */\n    set z(value) {\n        this.coordinates[2] = value;\n    }\n\n    /**\n     * Returns the `x` coordinate of this MagikVector instance.\n     *\n     * @borrows MagikVector#x as MagikVector#getX\n     * @returns {number} - the x coordinate\n     */\n    getX() {\n        return this.coordinates[0];\n    }\n\n    /**\n     * Returns the `y` coordinate of this MagikVector instance.\n     *\n     * @borrows MagikVector#y as MagikVector#getY()\n     * @returns {number} the x coordinate\n     */\n    getY() {\n        return this.coordinates[1];\n    }\n\n    /**\n     * Returns the `z` coordinate of this MagikVector instance.\n     *\n     * @borrows MagikVector#z as MagikVector#getZ()\n     * @returns {number} the x coordinate\n     */\n    getZ() {\n        return this.coordinates[2];\n    }\n\n    /**\n     * Returns the coordinate at the specified index, consider using:\n     * `const x = vector.x` or `const x = vector.getX()`,\n     * `const y = vector.y` or `const y = vector.getY()`,\n     * `const z = vector.z` or `const z = vector.getZ()`,\n     * to retrieve the coordinates of a 2D or 3D vector.\n     *\n     * @see MagikVector.x\n     * @see MagikVector.getX()\n     * @see MagikVector.y\n     * @see MagikVector.getY()\n     * @see MagikVector.z\n     * @see MagikVector.getZ()\n     * @param {number} index\n     * @returns {number|undefined} - value at the specified index or undefined\n     */\n    getCoordinate(index) {\n        return this.coordinates[index];\n    }\n\n    /**\n     * Alias of MagikVector.getCoordinate()\n     *\n     * @borrows MagikVector#getCoordinate() as MagikVector#getCoord()\n     * @param {number} index\n     * @returns {number|undefined} - value at the specified index or undefined\n     */\n    getCoord(index) {\n        return this.getCoordinate(index);\n    }\n\n    /**\n     * Sets the `x` coordinate of this MagikVector and returns the instance\n     * so it can be chained.\n     *\n     * @example <caption>set x coordinate and chain</caption>\n     * const vector = new MagikVector();\n     * vector.setX(33).setY(44).setZ(55);\n     * @param {number} value - the value to set\n     * @returns {MagikVector} - the instance itself\n     */\n    setX(value) {\n        this.coordinates[0] = value;\n\n        return this;\n    }\n\n    /**\n     * Returns the `y` coordinate of this MagikVector and returns the instance\n     * so it can be chained.\n     *\n     * @example <caption>set y coordinate and chain</caption>\n     * const vector = new MagikVector();\n     * vector.setX(33).setY(44).setZ(55);\n     * @param {number} value the value to set\n     * @returns {MagikVector} - the instance itself\n     */\n    setY(value) {\n        this.coordinates[1] = value;\n\n        return this;\n    }\n\n    /**\n     * Returns the `z` coordinate of this MagikVector and returns the instance\n     * so it can be chained.\n     *\n     * @example <caption>set z coordinate and chain</caption>\n     * const vector = new MagikVector();\n     * vector.setX(33).setY(44).setZ(55);\n     * @param {number} value the value to set\n     * @returns {MagikVector} - the instance itself\n     */\n    setZ(value) {\n        this.coordinates[2] = value;\n\n        return this;\n    }\n\n    /**\n     * Sets the coordinate at the specified index, consider using\n     * `vector.x = 3` or `vector.setX()`,\n     * `vector.y = 4` or `vector.setY()`,\n     * `vector.z = 5` or `vector.setZ()`,\n     * to set the coordinates of a 2D or 3D vector.\n     * Returns the instance so it's possible to chain this method.\n     *\n     * @see MagikVector.x\n     * @see MagikVector.setX()\n     * @see MagikVector.y\n     * @see MagikVector.setY()\n     * @see MagikVector.z\n     * @see MagikVector.setZ()\n     * @param {number} index the  index to set the value for\n     * @param {number} value the value to set\n     * @returns {MagikVector} the object itself\n     */\n    setCoordinate(index, value) {\n        this.coordinates[index] = value;\n\n        return this;\n    }\n\n    /**\n     * Alias of MagikVector.setCoordinate()\n     *\n     * @borrows MagikVector#setCoordinate() as MagikVector#setCoord()\n     * @param {number} index - the  index to set the value for\n     * @param {number} value - the value to set\n     * @returns {MagikVector} the object itself\n     */\n    setCoord(index, value) {\n        this.setCoordinate(index, value);\n\n        return this;\n    }\n\n    /**\n     * Adds given vector to the current vector, i.e. adds the individual\n     * coordinates.\n     *\n     * @param {MagikVector} vector - vector to add to current instance\n     * @returns {MagikVector} - the current MagikVector instance\n     */\n    add(vector) {\n        if(this.length !== vector.length) {\n            throw new RangeError(`add(): Vectors must have the same number of coordinates, got ${this.length} and ${vector.length}`);\n        }\n\n        this.coordinates.forEach((coordinate, index) => {\n            this.coordinates[index] += vector.coordinates[index];\n        });\n\n        return this;\n    }\n\n    /**\n     * subtracts given vector from the current vector, i.e. subtracts the\n     * individual coordinates.\n     *\n     * @param {MagikVector} vector - vector to subtract from current instance\n     * @returns {MagikVector} - returns the current Vector\n     */\n    subtract(vector) {\n        if(this.length !== vector.length) {\n            throw new RangeError(`subtract(): Vectors must have the same number of coordinates, got ${this.length} and ${vector.length}`);\n        }\n\n        this.coordinates.forEach((coordinate, index) => {\n            this.coordinates[index] -= vector.coordinates[index];\n        });\n\n        return this;\n    }\n\n    /**\n     * Alias of MagikVector.substract()\n     *\n     * @borrows MagikVector#subtract() as MagikVector#sub()\n     * @param {MagikVector} vector - vector to subtract from current instance\n     * @returns {MagikVector} - returns the current Vector\n     */\n    sub(vector) {\n        return this.substract(vector);\n    }\n\n    /**\n     * Multiplies the current Vector by value, you can supply either a scalar value\n     * or a Vector\n     *\n     * @param {MagikVector|number} value - scalar or Vector to use to multiply\n     * @returns {MagikVector|number} - returns the current MagikVector instance\n     */\n    multiply(value) {\n        if(typeof value === 'number') {\n            this.coordinates.forEach((coordinate, index) => {\n                this.coordinates[index] *= value;\n            });\n        } else if(value instanceof MagikVector) {\n            if(this.length !== value.length) {\n                throw new Error(\n                    `multiply(): Vectors must have the same number of coordinates, got ${this.length} and ${value.length}`\n                );\n            }\n\n            this.coordinates.forEach((coordinate, index) => {\n                this.coordinates[index] *= value.coordinates[index];\n            });\n        } else {\n            throw new Error(\n                `multiply(): Type of value must be MagikVector or number, got ${typeof value}`\n            );\n        }\n\n        return this;\n    }\n\n    /**\n     * Alias for the `multiply()` method\n     *\n     * @borrows MagikVector#multiply() as MagikVector#mult()\n     * @param {MagikVector|number} value - scalar or Vector to use to multiply\n     * @returns {MagikVector|number} - returns the current MagikVector instance\n     */\n    mult(value) {\n        return this.multiply(value);\n    }\n\n    /**\n     * Divides the current vector by the supplied scalar or Vector value\n     *\n     * @param {MagikVector|number} value - scalar or MagikVector to use to divide\n     * @returns {MagikVector} - the divided MagikVector\n     */\n    divide(value) {\n        if(typeof value === 'number') {\n            this.coordinates.forEach((coordinate, index) => {\n                this.coordinates[index] /= value;\n            });\n        } else if(value instanceof MagikVector) {\n            if(this.length !== value.length) {\n                throw new Error(`divide(): Vectors must have the same number of coordinates, got ${this.length} and ${value.length}`);\n            }\n\n            this.coordinates.forEach((coordinate, index) => {\n                this.coordinates[index] /= value.coordinates[index];\n            });\n        } else {\n            throw new Error(\n                `divide(): Type of value must be MagikVector or number, got ${typeof value}`\n            );\n        }\n\n        return this;\n    }\n\n    /**\n     * Alias for the `divide()` method\n     *\n     * @borrows MagikVector#divide() as MagikVector#div()\n     * @param {MagikVector|number} value - scalar or MagikVector to use to divide\n     * @returns {MagikVector} - the divided MagikVector\n     */\n    div(value) {\n        return this.divide(value);\n    }\n\n    /**\n     * Returns a clone of the current vector, i.e. creates a new Vector Object\n     * with the same coordinates as the current MagikVector instance.\n     *\n     * @returns {MagikVector} - returns a clone of the current instance\n     */\n    clone() {\n        return new MagikVector(...this.coordinates);\n    }\n\n    /**\n     * Returns the magnitude squared\n     *\n     * @returns {number} - the magnitude squared value of the current instance\n     */\n    getMagnitudeSquared() {\n        let sum = 0;\n\n        this.coordinates.forEach(coordinate => {\n            sum += coordinate * coordinate;\n        });\n\n        return sum;\n    }\n\n    /**\n     * Returns the magnitude of the vector\n     *\n     * @returns {number} - the magnitude of the current instance\n     */\n    getMagnitude() {\n        return Math.sqrt(this.getMagnitudeSquared());\n    }\n\n    /**\n     * Returns the magnitude of the vector\n     *\n     * @borrows MagikVector#getMagnitude() as MagikVector#getMag()\n     * @returns {number} - the magnitude of the current instance\n     */\n    getMag() {\n        return this.getMagnitude();\n    }\n\n    /**\n     * Sets the magnitude of the Vector and returns the changed vector\n     *\n     * @param {number} magnitude - magnitude to set this instance to\n     * @returns {MagikVector} - the adjusted MagikVector instance\n     */\n    setMagnitude(magnitude) {\n        this.normalise();\n        this.multiply(magnitude);\n\n        return this;\n    }\n\n    /**\n     * Alias for the `setMagnitude()` method\n     *\n     * @borrows MagikVector#setMagnitude() as MagikVector#setMag()\n     * @param {number} magnitude\n     * @returns {MagikVector} the adjusted MagikVector object\n     */\n    setMag(magnitude) {\n        return this.setMagnitude(magnitude);\n    }\n\n    /**\n     * Calculates the direction, i.e. the angle of rotation for this vector\n     * (only for 2D vectors)\n     *\n     * @returns {number} the angle of rotation in radians\n     */\n    getDirection() {\n        if(this.length !== 2) {\n            throw new RangeError(`getDirection(): Direction can only be calculated for 2D vectors, length = ${this.length}`);\n        }\n\n        const direction = Math.atan2(this.getY(), this.getX());\n\n        // TODO implement angleMode\n        // return this.angleMode === RADIANS ? direction : this.radiansToDegrees(direction);\n\n        return direction;\n    }\n\n    /**\n     * Alias for the getDirection() method\n     *\n     * @borrows MagikVector#getDirection() as MagikVector#getDir()\n     * @returns {number} - the angle of rotation in radians\n     */\n    getDir() {\n        return this.getDirection();\n    }\n\n    /**\n     * Returns the calculated distance from the current Vector to the supplied one\n     *\n     * @param {MagikVector} vector - the vector to calculate the distance to\n     * @returns {number} - the distance between the two vectors\n     */\n    getDistanceTo(vector) {\n        if(!(vector instanceof MagikVector)) {\n            throw new Error(\n                `getDistanceTo(): type must by MagikVector, got ${typeof vector}`\n            );\n        }\n\n        return vector.clone().subtract(this).getMagnitude();\n    }\n\n    /**\n     * Alias for the getDistanceTo() method\n     *\n     * @borrows MagikVector#getDistanceTo() as MagikVector#getDistance()\n     * @param {MagikVector} vector - the vector to calculate the distance to\n     * @returns {number} - the distance between the two vectors\n     */\n    getDistance(vector) {\n        return this.getDistanceTo(vector);\n    }\n\n    /**\n     * Alias for the getDistanceTo() method\n     *\n     * @alias this.getDistanceTo\n     * @borrows MagikVector#getDistanceTo() as MagikVector#getDist()\n     * @param {MagikVector} vector - the vector to calculate the distance to\n     * @returns {number} - the distance between the two vectors\n     */\n    getDist(vector) {\n        return this.getDistanceTo(vector);\n    }\n\n    /**\n     * Returns the dot Product of the current Vector with the supplied Vector,\n     * throws an Error if both Vectors do not have the same number of\n     * coordinates\n     *\n     * @param {MagikVector} vector - vector to calculate the dot product with\n     * @returns {number} - the calculated dot product\n     */\n    dotProduct(vector) {\n        if(!(vector instanceof MagikVector)) {\n            throw new Error(\n                `dotProduct(): type must by MagikVector, got ${typeof vector}`\n            );\n        }\n\n        if(this.length !== vector.length) {\n            throw new RangeError(\n                `dotProduct(): Vectors must have the same number of coordinates, got ${this.length} and ${vector.length}`\n            );\n        }\n\n        let sum = 0;\n        // TODO refactor to use .reduce()\n        this.coordinates.forEach((coordinate, index) => {\n            sum += this.coordinates[index] * vector.coordinates[index];\n        });\n\n        return sum;\n    }\n\n    /**\n     * Alias for dotProduct()\n     *\n     * @borrows MagikVector#dotProduct() as MagikVector#dot()\n     * @param {MagikVector} vector - vector to calculate the dot product with\n     * @returns {number} - the calculated dot product\n     */\n    dot(vector) {\n        return this.dotProduct(vector);\n    }\n\n    /**\n     * Normalises the Vector\n     *\n     * @returns {MagikVector} - the normalised Vector\n     */\n    normalise() {\n        const magnitude = this.getMagnitude();\n        this.coordinates.forEach((coordinate, index) => {\n            this.coordinates[index] = coordinate / magnitude;\n        });\n\n        return this;\n    }\n\n    /**\n     * Alias of normalise()\n     *\n     * @borrows MagikVector#normalise() as MagikVector#normalize()\n     * @returns {MagikVector} - the normalised Vector\n     */\n    normalize() {\n        return this.normalise();\n    }\n\n    /**\n     * Limits the magnitude of the Vector to the supplied scalar value\n     *\n     * @param {number} scalar - value to limit by\n     * @returns {MagikVector} - the current instance\n     */\n    limit(scalar) {\n        if(this.getMagnitude() > scalar) {\n            this.normalise();\n            this.multiply(scalar);\n        }\n\n        return this;\n    }\n\n    /**\n     * Returns the string representation of the Vector\n     *\n     * @returns {string} - a string representation of the Vector\n     */\n    toString() {\n        return `(${this.coordinates.join(', ')})`;\n    }\n}\n\nif(typeof exports === 'object' && typeof module !== 'undefined') {\n    module.exports = MagikVector;\n}\n",
+    "static": true,
+    "longname": "/Users/bjorn/projects/magikMaker/magik-vector/lib/magik-vector.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 54,
+    "kind": "class",
+    "name": "MagikVector",
+    "memberof": "lib/magik-vector.js",
+    "static": true,
+    "longname": "lib/magik-vector.js~MagikVector",
+    "access": "public",
+    "export": false,
+    "importPath": "@magikmaker/magik-vector",
+    "importStyle": null,
+    "description": "MagikVector class for handling 2 dimensional, 3 dimensional or n dimensional\nvectors",
+    "examples": [
+      "// import the vector and create a new vector object\nconst MagikVector = import 'MagikVector';\nconst vector = new MagikVector();\n\n// initialise a new vector with `x` and `y` coordinates\nconst vector2D = new MagikVector(12, 42);\n\n// it's also possible to add a `z` coordinate\nconst vector3D = new MagikVector(15, 12, 71);\n\n// or even more coordinates\nconst multiDimensional = new MagikVector(15, 12, 71, 7, 38, 0);\n\n// create a MagikVector from an Array\nconst myCoordinates = [4, 6, 28, 5, 33, 12, 8, 22, 785, 38, 56];\nconst multiDimensional = new MagikVector(...myCoordinates);"
+    ],
+    "lineNumber": 24,
+    "unknown": [
+      {
+        "tagName": "@module",
+        "tagValue": "MagikVector"
+      }
+    ],
+    "interface": false,
+    "ignore": true
+  },
+  {
+    "__docId__": 55,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#constructor",
+    "access": "public",
+    "description": "Initialise a new Vector instance with coordinates as arguments, either\nsupply the individual coordinates or supply an array with number values.",
+    "examples": [
+      "// empty vector\nconst vector = new MagikVector();\n\n// two dimensional\nconst vector2D = new MagikVector(12, 15);\n\n// three dimensional\nconst vector3D = new MagikVector(12, 15, 71);\n\n// multi dimensional\nconst multiDimensional = new MagikVector(3, 4, 5, 99, 12, 14, 42);\n\n// from Array\nconst myCoordinates = [4, 6, 28, 5, 33, 12, 8, 22, 785, 38, 56];\nconst multiDimensional = new MagikVector(...myCoordinates);"
+    ],
+    "lineNumber": 48,
+    "unknown": [
+      {
+        "tagName": "@class",
+        "tagValue": ""
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "{...number|array}[args]",
+        "description": "optional coordinate list or Array"
+      }
+    ]
+  },
+  {
+    "__docId__": 56,
+    "kind": "member",
+    "name": "coordinates",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#coordinates",
+    "access": "public",
+    "description": null,
+    "lineNumber": 49,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "method",
+    "name": "random",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/magik-vector.js~MagikVector.random",
+    "access": "public",
+    "description": "Returns a new MagikVector with random coordinates, defaults to\na normalised 3D vector",
+    "lineNumber": 64,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{MagikVector}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "3",
+        "defaultRaw": 3,
+        "name": "dimensions",
+        "description": "optional number of dimensions to use"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "MagikVector"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "method",
+    "name": "rand",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/magik-vector.js~MagikVector.rand",
+    "access": "public",
+    "description": "Alias for `random()`",
+    "lineNumber": 82,
+    "unknown": [
+      {
+        "tagName": "@borrows",
+        "tagValue": "MagikVector#random as MagikVector#rand"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{MagikVector} - instance of the MagikVector Class"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "3",
+        "defaultRaw": 3,
+        "name": "dimensions",
+        "description": "optional number of dimensions to use"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "MagikVector"
+      ],
+      "spread": false,
+      "description": "instance of the MagikVector Class"
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "method",
+    "name": "random2D",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/magik-vector.js~MagikVector.random2D",
+    "access": "public",
+    "description": "Returns a new vector with two random coordinates",
+    "lineNumber": 91,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{MagikVector} - instance of MagikVector with two random values"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "MagikVector"
+      ],
+      "spread": false,
+      "description": "instance of MagikVector with two random values"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 60,
+    "kind": "method",
+    "name": "random3D",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/magik-vector.js~MagikVector.random3D",
+    "access": "public",
+    "description": "Returns a new vector with three random coordinates, basically this is an\nalias for calling MagikVector.random() without any arguments.",
+    "lineNumber": 101,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{MagikVector} - instance of MagikVector with three random values"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "MagikVector"
+      ],
+      "spread": false,
+      "description": "instance of MagikVector with three random values"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 61,
+    "kind": "method",
+    "name": "randomInteger",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/magik-vector.js~MagikVector.randomInteger",
+    "access": "public",
+    "description": "Returns a random integer optionally bound by the minimum(included) and\nmaximum (included) arguments. If only one argument is supplied, it is\nthe maximum number (same as `MagikVector.randomInteger(0, maximum)`)",
+    "lineNumber": 115,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} - the random number"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "args",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "args.minimum",
+        "description": "optional minimum value"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "ars.maximum",
+        "description": "optional maximum value"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "the random number"
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "method",
+    "name": "randomInt",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/magik-vector.js~MagikVector.randomInt",
+    "access": "public",
+    "description": "Returns a random integer optionally bound by the minimum(included) and\nmaximum (included) arguments. If only one argument is supplied, it is\nthe maximum number (same as `MagikVector.randomInteger(0, maximum)`)",
+    "lineNumber": 140,
+    "unknown": [
+      {
+        "tagName": "@borrows",
+        "tagValue": "MagikVector#randomInteger as MagikVector#randomInt"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} - the random number"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "args",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "args.minimum",
+        "description": "optional minimum value"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "ars.maximum",
+        "description": "optional maximum value"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "the random number"
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "method",
+    "name": "toRadians",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/magik-vector.js~MagikVector.toRadians",
+    "access": "public",
+    "description": "Converts degrees to radians",
+    "examples": [
+      "<caption>Convert degrees to Radians</caption>\nradians = MagikVector.toRadians(degrees);"
+    ],
+    "lineNumber": 152,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} - the converted degrees as radians"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "degrees",
+        "description": "the number of degrees to convert"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "the converted degrees as radians"
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "method",
+    "name": "toDegrees",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/magik-vector.js~MagikVector.toDegrees",
+    "access": "public",
+    "description": "Converts radians to degrees",
+    "examples": [
+      "<caption>Convert Radian to degrees</caption>\ndegrees = MagikVector.toDegrees(radians);"
+    ],
+    "lineNumber": 164,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} - the converted radians as degrees"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "radians",
+        "description": "the number of radians to convert"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "the converted radians as degrees"
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "get",
+    "name": "length",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#length",
+    "access": "public",
+    "description": "Returns the length of the coordinates array, in other words the number\nof dimensions of this MagikVector",
+    "lineNumber": 174,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} - the number of dimensions of this MagikVector"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "the number of dimensions of this MagikVector"
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "get",
+    "name": "x",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#x",
+    "access": "public",
+    "description": "Returns the `x` coordinate of this Vector.",
+    "examples": [
+      "const vector = new MagikVector(3, 4, 5);\nconst xCoordinate = vector.x; // returns 3"
+    ],
+    "lineNumber": 186,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} - the `x` coordinate of this MagikVector instance"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "the `x` coordinate of this MagikVector instance"
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 67,
+    "kind": "get",
+    "name": "y",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#y",
+    "access": "public",
+    "description": "Returns the `y` coordinate of this Vector.",
+    "examples": [
+      "const vector = new MagikVector(3, 4, 5);\nconst yCoordinate = vector.y; // returns 4"
+    ],
+    "lineNumber": 198,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} - the `y` coordinate of this MagikVector instance"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "the `y` coordinate of this MagikVector instance"
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 68,
+    "kind": "get",
+    "name": "z",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#z",
+    "access": "public",
+    "description": "Returns the `z` coordinate of this Vector.",
+    "examples": [
+      "const vector = new MagikVector(3, 4, 5);\nconst zCoordinate = vector.z; // returns 5"
+    ],
+    "lineNumber": 210,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} - the `z` coordinate of this MagikVector instance"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "the `z` coordinate of this MagikVector instance"
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 69,
+    "kind": "set",
+    "name": "x",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#x",
+    "access": "public",
+    "description": "Sets the `x` coordinate of this MagikVector instance.",
+    "examples": [
+      "const vector = new MagikVector();\nconst vector.x = 3;"
+    ],
+    "lineNumber": 223,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{void}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": "the value to set as x coordinate"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "void"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 70,
+    "kind": "set",
+    "name": "y",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#y",
+    "access": "public",
+    "description": "Sets  the `y` coordinate of this MagikVector instance.",
+    "examples": [
+      "const vector = new MagikVector();\nconst vector.y = 4;"
+    ],
+    "lineNumber": 236,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{void}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": "the value to set as y coordinate"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "void"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 71,
+    "kind": "set",
+    "name": "z",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#z",
+    "access": "public",
+    "description": "Sets the `z` coordinate of this MagikVector instance.",
+    "examples": [
+      "const vector = new MagikVector();\nconst vector.z = 5;"
+    ],
+    "lineNumber": 249,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{void}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": "the value to set as z coordinate"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "void"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 72,
+    "kind": "method",
+    "name": "getX",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#getX",
+    "access": "public",
+    "description": "Returns the `x` coordinate of this MagikVector instance.",
+    "lineNumber": 259,
+    "unknown": [
+      {
+        "tagName": "@borrows",
+        "tagValue": "MagikVector#x as MagikVector#getX"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} - the x coordinate"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "the x coordinate"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 73,
+    "kind": "method",
+    "name": "getY",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#getY",
+    "access": "public",
+    "description": "Returns the `y` coordinate of this MagikVector instance.",
+    "lineNumber": 269,
+    "unknown": [
+      {
+        "tagName": "@borrows",
+        "tagValue": "MagikVector#y as MagikVector#getY()"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} the x coordinate"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "the x coordinate"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 74,
+    "kind": "method",
+    "name": "getZ",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#getZ",
+    "access": "public",
+    "description": "Returns the `z` coordinate of this MagikVector instance.",
+    "lineNumber": 279,
+    "unknown": [
+      {
+        "tagName": "@borrows",
+        "tagValue": "MagikVector#z as MagikVector#getZ()"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} the x coordinate"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "the x coordinate"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 75,
+    "kind": "method",
+    "name": "getCoordinate",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#getCoordinate",
+    "access": "public",
+    "description": "Returns the coordinate at the specified index, consider using:\n`const x = vector.x` or `const x = vector.getX()`,\n`const y = vector.y` or `const y = vector.getY()`,\n`const z = vector.z` or `const z = vector.getZ()`,\nto retrieve the coordinates of a 2D or 3D vector.",
+    "see": [
+      "MagikVector.x",
+      "MagikVector.getX()",
+      "MagikVector.y",
+      "MagikVector.getY()",
+      "MagikVector.z",
+      "MagikVector.getZ()"
+    ],
+    "lineNumber": 299,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number|undefined} - value at the specified index or undefined"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "index",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number",
+        "undefined"
+      ],
+      "spread": false,
+      "description": "value at the specified index or undefined"
+    }
+  },
+  {
+    "__docId__": 76,
+    "kind": "method",
+    "name": "getCoord",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#getCoord",
+    "access": "public",
+    "description": "Alias of MagikVector.getCoordinate()",
+    "lineNumber": 310,
+    "unknown": [
+      {
+        "tagName": "@borrows",
+        "tagValue": "MagikVector#getCoordinate() as MagikVector#getCoord()"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{number|undefined} - value at the specified index or undefined"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "index",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number",
+        "undefined"
+      ],
+      "spread": false,
+      "description": "value at the specified index or undefined"
+    }
+  },
+  {
+    "__docId__": 77,
+    "kind": "method",
+    "name": "setX",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#setX",
+    "access": "public",
+    "description": "Sets the `x` coordinate of this MagikVector and returns the instance\nso it can be chained.",
+    "examples": [
+      "<caption>set x coordinate and chain</caption>\nconst vector = new MagikVector();\nvector.setX(33).setY(44).setZ(55);"
+    ],
+    "lineNumber": 324,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{MagikVector} - the instance itself"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": "the value to set"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "MagikVector"
+      ],
+      "spread": false,
+      "description": "the instance itself"
+    }
+  },
+  {
+    "__docId__": 78,
+    "kind": "method",
+    "name": "setY",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#setY",
+    "access": "public",
+    "description": "Returns the `y` coordinate of this MagikVector and returns the instance\nso it can be chained.",
+    "examples": [
+      "<caption>set y coordinate and chain</caption>\nconst vector = new MagikVector();\nvector.setX(33).setY(44).setZ(55);"
+    ],
+    "lineNumber": 340,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{MagikVector} - the instance itself"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": "the value to set"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "MagikVector"
+      ],
+      "spread": false,
+      "description": "the instance itself"
+    }
+  },
+  {
+    "__docId__": 79,
+    "kind": "method",
+    "name": "setZ",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#setZ",
+    "access": "public",
+    "description": "Returns the `z` coordinate of this MagikVector and returns the instance\nso it can be chained.",
+    "examples": [
+      "<caption>set z coordinate and chain</caption>\nconst vector = new MagikVector();\nvector.setX(33).setY(44).setZ(55);"
+    ],
+    "lineNumber": 356,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{MagikVector} - the instance itself"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": "the value to set"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "MagikVector"
+      ],
+      "spread": false,
+      "description": "the instance itself"
+    }
+  },
+  {
+    "__docId__": 80,
+    "kind": "method",
+    "name": "setCoordinate",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#setCoordinate",
+    "access": "public",
+    "description": "Sets the coordinate at the specified index, consider using\n`vector.x = 3` or `vector.setX()`,\n`vector.y = 4` or `vector.setY()`,\n`vector.z = 5` or `vector.setZ()`,\nto set the coordinates of a 2D or 3D vector.\nReturns the instance so it's possible to chain this method.",
+    "see": [
+      "MagikVector.x",
+      "MagikVector.setX()",
+      "MagikVector.y",
+      "MagikVector.setY()",
+      "MagikVector.z",
+      "MagikVector.setZ()"
+    ],
+    "lineNumber": 380,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{MagikVector} the object itself"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "index",
+        "description": "the  index to set the value for"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": "the value to set"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "MagikVector"
+      ],
+      "spread": false,
+      "description": "the object itself"
+    }
+  },
+  {
+    "__docId__": 81,
+    "kind": "method",
+    "name": "setCoord",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#setCoord",
+    "access": "public",
+    "description": "Alias of MagikVector.setCoordinate()",
+    "lineNumber": 394,
+    "unknown": [
+      {
+        "tagName": "@borrows",
+        "tagValue": "MagikVector#setCoordinate() as MagikVector#setCoord()"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{MagikVector} the object itself"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "index",
+        "description": "the  index to set the value for"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": "the value to set"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "MagikVector"
+      ],
+      "spread": false,
+      "description": "the object itself"
+    }
+  },
+  {
+    "__docId__": 82,
+    "kind": "method",
+    "name": "add",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#add",
+    "access": "public",
+    "description": "Adds given vector to the current vector, i.e. adds the individual\ncoordinates.",
+    "lineNumber": 407,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{MagikVector} - the current MagikVector instance"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "MagikVector"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "vector",
+        "description": "vector to add to current instance"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "MagikVector"
+      ],
+      "spread": false,
+      "description": "the current MagikVector instance"
+    }
+  },
+  {
+    "__docId__": 83,
+    "kind": "method",
+    "name": "subtract",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#subtract",
+    "access": "public",
+    "description": "subtracts given vector from the current vector, i.e. subtracts the\nindividual coordinates.",
+    "lineNumber": 426,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{MagikVector} - returns the current Vector"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "MagikVector"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "vector",
+        "description": "vector to subtract from current instance"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "MagikVector"
+      ],
+      "spread": false,
+      "description": "returns the current Vector"
+    }
+  },
+  {
+    "__docId__": 84,
+    "kind": "method",
+    "name": "sub",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#sub",
+    "access": "public",
+    "description": "Alias of MagikVector.substract()",
+    "lineNumber": 445,
+    "unknown": [
+      {
+        "tagName": "@borrows",
+        "tagValue": "MagikVector#subtract() as MagikVector#sub()"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{MagikVector} - returns the current Vector"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "MagikVector"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "vector",
+        "description": "vector to subtract from current instance"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "MagikVector"
+      ],
+      "spread": false,
+      "description": "returns the current Vector"
+    }
+  },
+  {
+    "__docId__": 85,
+    "kind": "method",
+    "name": "multiply",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#multiply",
+    "access": "public",
+    "description": "Multiplies the current Vector by value, you can supply either a scalar value\nor a Vector",
+    "lineNumber": 456,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{MagikVector|number} - returns the current MagikVector instance"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "MagikVector",
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": "scalar or Vector to use to multiply"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "MagikVector",
+        "number"
+      ],
+      "spread": false,
+      "description": "returns the current MagikVector instance"
+    }
+  },
+  {
+    "__docId__": 86,
+    "kind": "method",
+    "name": "mult",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#mult",
+    "access": "public",
+    "description": "Alias for the `multiply()` method",
+    "lineNumber": 487,
+    "unknown": [
+      {
+        "tagName": "@borrows",
+        "tagValue": "MagikVector#multiply() as MagikVector#mult()"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{MagikVector|number} - returns the current MagikVector instance"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "MagikVector",
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": "scalar or Vector to use to multiply"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "MagikVector",
+        "number"
+      ],
+      "spread": false,
+      "description": "returns the current MagikVector instance"
+    }
+  },
+  {
+    "__docId__": 87,
+    "kind": "method",
+    "name": "divide",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#divide",
+    "access": "public",
+    "description": "Divides the current vector by the supplied scalar or Vector value",
+    "lineNumber": 497,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{MagikVector} - the divided MagikVector"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "MagikVector",
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": "scalar or MagikVector to use to divide"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "MagikVector"
+      ],
+      "spread": false,
+      "description": "the divided MagikVector"
+    }
+  },
+  {
+    "__docId__": 88,
+    "kind": "method",
+    "name": "div",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#div",
+    "access": "public",
+    "description": "Alias for the `divide()` method",
+    "lineNumber": 526,
+    "unknown": [
+      {
+        "tagName": "@borrows",
+        "tagValue": "MagikVector#divide() as MagikVector#div()"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{MagikVector} - the divided MagikVector"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "MagikVector",
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": "scalar or MagikVector to use to divide"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "MagikVector"
+      ],
+      "spread": false,
+      "description": "the divided MagikVector"
+    }
+  },
+  {
+    "__docId__": 89,
+    "kind": "method",
+    "name": "clone",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#clone",
+    "access": "public",
+    "description": "Returns a clone of the current vector, i.e. creates a new Vector Object\nwith the same coordinates as the current MagikVector instance.",
+    "lineNumber": 536,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{MagikVector} - returns a clone of the current instance"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "MagikVector"
+      ],
+      "spread": false,
+      "description": "returns a clone of the current instance"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 90,
+    "kind": "method",
+    "name": "getMagnitudeSquared",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#getMagnitudeSquared",
+    "access": "public",
+    "description": "Returns the magnitude squared",
+    "lineNumber": 545,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} - the magnitude squared value of the current instance"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "the magnitude squared value of the current instance"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 91,
+    "kind": "method",
+    "name": "getMagnitude",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#getMagnitude",
+    "access": "public",
+    "description": "Returns the magnitude of the vector",
+    "lineNumber": 560,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} - the magnitude of the current instance"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "the magnitude of the current instance"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 92,
+    "kind": "method",
+    "name": "getMag",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#getMag",
+    "access": "public",
+    "description": "Returns the magnitude of the vector",
+    "lineNumber": 570,
+    "unknown": [
+      {
+        "tagName": "@borrows",
+        "tagValue": "MagikVector#getMagnitude() as MagikVector#getMag()"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} - the magnitude of the current instance"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "the magnitude of the current instance"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 93,
+    "kind": "method",
+    "name": "setMagnitude",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#setMagnitude",
+    "access": "public",
+    "description": "Sets the magnitude of the Vector and returns the changed vector",
+    "lineNumber": 580,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{MagikVector} - the adjusted MagikVector instance"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "magnitude",
+        "description": "magnitude to set this instance to"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "MagikVector"
+      ],
+      "spread": false,
+      "description": "the adjusted MagikVector instance"
+    }
+  },
+  {
+    "__docId__": 94,
+    "kind": "method",
+    "name": "setMag",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#setMag",
+    "access": "public",
+    "description": "Alias for the `setMagnitude()` method",
+    "lineNumber": 594,
+    "unknown": [
+      {
+        "tagName": "@borrows",
+        "tagValue": "MagikVector#setMagnitude() as MagikVector#setMag()"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{MagikVector} the adjusted MagikVector object"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "magnitude",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "MagikVector"
+      ],
+      "spread": false,
+      "description": "the adjusted MagikVector object"
+    }
+  },
+  {
+    "__docId__": 95,
+    "kind": "method",
+    "name": "getDirection",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#getDirection",
+    "access": "public",
+    "description": "Calculates the direction, i.e. the angle of rotation for this vector\n(only for 2D vectors)",
+    "lineNumber": 604,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} the angle of rotation in radians"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "the angle of rotation in radians"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 96,
+    "kind": "method",
+    "name": "getDir",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#getDir",
+    "access": "public",
+    "description": "Alias for the getDirection() method",
+    "lineNumber": 623,
+    "unknown": [
+      {
+        "tagName": "@borrows",
+        "tagValue": "MagikVector#getDirection() as MagikVector#getDir()"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} - the angle of rotation in radians"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "the angle of rotation in radians"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 97,
+    "kind": "method",
+    "name": "getDistanceTo",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#getDistanceTo",
+    "access": "public",
+    "description": "Returns the calculated distance from the current Vector to the supplied one",
+    "lineNumber": 633,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} - the distance between the two vectors"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "MagikVector"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "vector",
+        "description": "the vector to calculate the distance to"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "the distance between the two vectors"
+    }
+  },
+  {
+    "__docId__": 98,
+    "kind": "method",
+    "name": "getDistance",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#getDistance",
+    "access": "public",
+    "description": "Alias for the getDistanceTo() method",
+    "lineNumber": 650,
+    "unknown": [
+      {
+        "tagName": "@borrows",
+        "tagValue": "MagikVector#getDistanceTo() as MagikVector#getDistance()"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} - the distance between the two vectors"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "MagikVector"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "vector",
+        "description": "the vector to calculate the distance to"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "the distance between the two vectors"
+    }
+  },
+  {
+    "__docId__": 99,
+    "kind": "method",
+    "name": "getDist",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#getDist",
+    "access": "public",
+    "description": "Alias for the getDistanceTo() method",
+    "lineNumber": 662,
+    "unknown": [
+      {
+        "tagName": "@alias",
+        "tagValue": "this.getDistanceTo"
+      },
+      {
+        "tagName": "@borrows",
+        "tagValue": "MagikVector#getDistanceTo() as MagikVector#getDist()"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} - the distance between the two vectors"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "MagikVector"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "vector",
+        "description": "the vector to calculate the distance to"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "the distance between the two vectors"
+    }
+  },
+  {
+    "__docId__": 100,
+    "kind": "method",
+    "name": "dotProduct",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#dotProduct",
+    "access": "public",
+    "description": "Returns the dot Product of the current Vector with the supplied Vector,\nthrows an Error if both Vectors do not have the same number of\ncoordinates",
+    "lineNumber": 674,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} - the calculated dot product"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "MagikVector"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "vector",
+        "description": "vector to calculate the dot product with"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "the calculated dot product"
+    }
+  },
+  {
+    "__docId__": 101,
+    "kind": "method",
+    "name": "dot",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#dot",
+    "access": "public",
+    "description": "Alias for dotProduct()",
+    "lineNumber": 703,
+    "unknown": [
+      {
+        "tagName": "@borrows",
+        "tagValue": "MagikVector#dotProduct() as MagikVector#dot()"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} - the calculated dot product"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "MagikVector"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "vector",
+        "description": "vector to calculate the dot product with"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "the calculated dot product"
+    }
+  },
+  {
+    "__docId__": 102,
+    "kind": "method",
+    "name": "normalise",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#normalise",
+    "access": "public",
+    "description": "Normalises the Vector",
+    "lineNumber": 712,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{MagikVector} - the normalised Vector"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "MagikVector"
+      ],
+      "spread": false,
+      "description": "the normalised Vector"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 103,
+    "kind": "method",
+    "name": "normalize",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#normalize",
+    "access": "public",
+    "description": "Alias of normalise()",
+    "lineNumber": 727,
+    "unknown": [
+      {
+        "tagName": "@borrows",
+        "tagValue": "MagikVector#normalise() as MagikVector#normalize()"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{MagikVector} - the normalised Vector"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "MagikVector"
+      ],
+      "spread": false,
+      "description": "the normalised Vector"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 104,
+    "kind": "method",
+    "name": "limit",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#limit",
+    "access": "public",
+    "description": "Limits the magnitude of the Vector to the supplied scalar value",
+    "lineNumber": 737,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{MagikVector} - the current instance"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "scalar",
+        "description": "value to limit by"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "MagikVector"
+      ],
+      "spread": false,
+      "description": "the current instance"
+    }
+  },
+  {
+    "__docId__": 105,
+    "kind": "method",
+    "name": "toString",
+    "memberof": "lib/magik-vector.js~MagikVector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/magik-vector.js~MagikVector#toString",
+    "access": "public",
+    "description": "Returns the string representation of the Vector",
+    "lineNumber": 751,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{string} - a string representation of the Vector"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "a string representation of the Vector"
+    },
+    "params": []
+  },
+  {
+    "kind": "index",
+    "content": "[![CircleCI](https://circleci.com/gh/magikMaker/magik-vector.svg?style=svg)](https://circleci.com/gh/magikMaker/magik-vector)\n[![NPM version](https://badge.fury.io/js/magik-vector.svg)](http://badge.fury.io/js/magik-vector)\n[![npm module downloads](http://img.shields.io/npm/dt/magik-vector.svg)](https://www.npmjs.org/package/magik-vector)\n\n<a name=\"module_MagikVector\"></a>\n\n## MagikVector\nClass for handling 2 dimensional, 3 dimensional or n dimensional vectors\n\n**Example**  \n```js\n// import the vector and create a new vector object\nconst MagikVector = import 'MagikVector';\nconst vector = new MagikVector();\n\n// initialise a new vector with `x` and `y` coordinates\nconst vector2D = new MagikVector(12, 42);\n\n// it's also possible to add a `z` coordinate\nconst vector3D = new MagikVector(15, 12, 71);\n\n// or even more coordinates\nconst multiDimensional = new MagikVector(15, 12, 71, 7, 38, 0);\n\n// create a MagikVector from an Array\nconst myCoordinates = [4, 6, 28, 5, 33, 12, 8, 22, 785, 38, 56];\nconst multiDimensional = new MagikVector(...myCoordinates);\n```\n\n* [MagikVector](#module_MagikVector)\n    * [~MagikVector](#module_MagikVector..MagikVector)\n        * [new MagikVector([...args])](#new_module_MagikVector..MagikVector_new)\n        * _instance_\n            * [.length](#module_MagikVector..MagikVector+length) ⇒ <code>number</code>\n            * [.x](#module_MagikVector..MagikVector+x) ⇒ <code>number</code>\n            * [.y](#module_MagikVector..MagikVector+y) ⇒ <code>number</code>\n            * [.z](#module_MagikVector..MagikVector+z) ⇒ <code>number</code>\n            * [.x](#module_MagikVector..MagikVector+x) ⇒ <code>void</code>\n            * [.y](#module_MagikVector..MagikVector+y) ⇒ <code>void</code>\n            * [.z](#module_MagikVector..MagikVector+z) ⇒ <code>void</code>\n            * [.getCoordinate(index)](#module_MagikVector..MagikVector+getCoordinate) ⇒ <code>number</code> \\| <code>undefined</code>\n            * [.setCoordinate(index, value)](#module_MagikVector..MagikVector+setCoordinate) ⇒ <code>MagikVector</code>\n            * [.add(vector)](#module_MagikVector..MagikVector+add) ⇒ <code>MagikVector</code>\n            * [.subtract(vector)](#module_MagikVector..MagikVector+subtract) ⇒ <code>MagikVector</code>\n            * [.multiply(value)](#module_MagikVector..MagikVector+multiply) ⇒ <code>MagikVector</code> \\| <code>number</code>\n            * [.divide(value)](#module_MagikVector..MagikVector+divide) ⇒ <code>MagikVector</code>\n            * [.clone()](#module_MagikVector..MagikVector+clone) ⇒ <code>MagikVector</code>\n            * [.getMagnitudeSquared()](#module_MagikVector..MagikVector+getMagnitudeSquared) ⇒ <code>number</code>\n            * [.getMagnitude()](#module_MagikVector..MagikVector+getMagnitude) ⇒ <code>number</code>\n            * [.setMagnitude(magnitude)](#module_MagikVector..MagikVector+setMagnitude) ⇒ <code>MagikVector</code>\n            * [.getDirection()](#module_MagikVector..MagikVector+getDirection) ⇒ <code>number</code>\n            * [.getDistanceTo(vector)](#module_MagikVector..MagikVector+getDistanceTo) ⇒ <code>number</code>\n            * [.dotProduct(vector)](#module_MagikVector..MagikVector+dotProduct) ⇒ <code>number</code>\n            * [.normalise()](#module_MagikVector..MagikVector+normalise) ⇒ <code>MagikVector</code>\n            * [.limit(scalar)](#module_MagikVector..MagikVector+limit) ⇒ <code>MagikVector</code>\n            * [.toString()](#module_MagikVector..MagikVector+toString) ⇒ <code>string</code>\n        * _static_\n            * [.random([dimensions])](#module_MagikVector..MagikVector.random) ⇒ <code>MagikVector</code>\n            * [.random2D()](#module_MagikVector..MagikVector.random2D) ⇒ <code>MagikVector</code>\n            * [.randomInteger([minimum], [maximum])](#module_MagikVector..MagikVector.randomInteger) ⇒ <code>number</code>\n            * [.toRadians(degrees)](#module_MagikVector..MagikVector.toRadians) ⇒ <code>number</code>\n            * [.toDegrees(radians)](#module_MagikVector..MagikVector.toDegrees) ⇒ <code>number</code>\n\n<a name=\"module_MagikVector..MagikVector\"></a>\n\n### MagikVector~MagikVector\n**Kind**: inner class of [<code>MagikVector</code>](#module_MagikVector)  \n\n* [~MagikVector](#module_MagikVector..MagikVector)\n    * [new MagikVector([...args])](#new_module_MagikVector..MagikVector_new)\n    * _instance_\n        * [.length](#module_MagikVector..MagikVector+length) ⇒ <code>number</code>\n        * [.x](#module_MagikVector..MagikVector+x) ⇒ <code>number</code>\n        * [.y](#module_MagikVector..MagikVector+y) ⇒ <code>number</code>\n        * [.z](#module_MagikVector..MagikVector+z) ⇒ <code>number</code>\n        * [.x](#module_MagikVector..MagikVector+x) ⇒ <code>void</code>\n        * [.y](#module_MagikVector..MagikVector+y) ⇒ <code>void</code>\n        * [.z](#module_MagikVector..MagikVector+z) ⇒ <code>void</code>\n        * [.getCoordinate(index)](#module_MagikVector..MagikVector+getCoordinate) ⇒ <code>number</code> \\| <code>undefined</code>\n        * [.setCoordinate(index, value)](#module_MagikVector..MagikVector+setCoordinate) ⇒ <code>MagikVector</code>\n        * [.add(vector)](#module_MagikVector..MagikVector+add) ⇒ <code>MagikVector</code>\n        * [.subtract(vector)](#module_MagikVector..MagikVector+subtract) ⇒ <code>MagikVector</code>\n        * [.multiply(value)](#module_MagikVector..MagikVector+multiply) ⇒ <code>MagikVector</code> \\| <code>number</code>\n        * [.divide(value)](#module_MagikVector..MagikVector+divide) ⇒ <code>MagikVector</code>\n        * [.clone()](#module_MagikVector..MagikVector+clone) ⇒ <code>MagikVector</code>\n        * [.getMagnitudeSquared()](#module_MagikVector..MagikVector+getMagnitudeSquared) ⇒ <code>number</code>\n        * [.getMagnitude()](#module_MagikVector..MagikVector+getMagnitude) ⇒ <code>number</code>\n        * [.setMagnitude(magnitude)](#module_MagikVector..MagikVector+setMagnitude) ⇒ <code>MagikVector</code>\n        * [.getDirection()](#module_MagikVector..MagikVector+getDirection) ⇒ <code>number</code>\n        * [.getDistanceTo(vector)](#module_MagikVector..MagikVector+getDistanceTo) ⇒ <code>number</code>\n        * [.dotProduct(vector)](#module_MagikVector..MagikVector+dotProduct) ⇒ <code>number</code>\n        * [.normalise()](#module_MagikVector..MagikVector+normalise) ⇒ <code>MagikVector</code>\n        * [.limit(scalar)](#module_MagikVector..MagikVector+limit) ⇒ <code>MagikVector</code>\n        * [.toString()](#module_MagikVector..MagikVector+toString) ⇒ <code>string</code>\n    * _static_\n        * [.random([dimensions])](#module_MagikVector..MagikVector.random) ⇒ <code>MagikVector</code>\n        * [.random2D()](#module_MagikVector..MagikVector.random2D) ⇒ <code>MagikVector</code>\n        * [.randomInteger([minimum], [maximum])](#module_MagikVector..MagikVector.randomInteger) ⇒ <code>number</code>\n        * [.toRadians(degrees)](#module_MagikVector..MagikVector.toRadians) ⇒ <code>number</code>\n        * [.toDegrees(radians)](#module_MagikVector..MagikVector.toDegrees) ⇒ <code>number</code>\n\n<a name=\"new_module_MagikVector..MagikVector_new\"></a>\n\n#### new MagikVector([...args])\nInitialise a new Vector instance with coordinates as arguments, either\nsupply the individual coordinates or supply an array with number values.\n\n\n| Param | Type | Description |\n| --- | --- | --- |\n| [...args] | <code>number</code> \\| <code>array</code> | optional coordinate list or Array |\n\n**Example**  \n```js\n// empty vector\nconst vector = new MagikVector();\n\n// two dimensional\nconst vector2D = new MagikVector(12, 15);\n\n// three dimensional\nconst vector3D = new MagikVector(12, 15, 71);\n\n// multi dimensional\nconst multiDimensional = new MagikVector(3, 4, 5, 99, 12, 14, 42);\n\n// from Array\nconst myCoordinates = [4, 6, 28, 5, 33, 12, 8, 22, 785, 38, 56];\nconst multiDimensional = new MagikVector(...myCoordinates);\n```\n<a name=\"module_MagikVector..MagikVector+length\"></a>\n\n#### magikVector.length ⇒ <code>number</code>\nReturns the length of the coordinates array, in other words the number\nof dimensions of this Vector\n\n**Kind**: instance property of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n**Returns**: <code>number</code> - the number of dimensions of this Vector  \n<a name=\"module_MagikVector..MagikVector+x\"></a>\n\n#### magikVector.x ⇒ <code>number</code>\nReturns the `x` coordinate of this Vector.\n\n**Kind**: instance property of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n**Returns**: <code>number</code> - the `x` coordinate of this vector  \n**Example**  \n```js\nconst vector = new MagikVector(3, 4, 5);\nconst xCoordinate = vector.x; // returns 3\n```\n<a name=\"module_MagikVector..MagikVector+y\"></a>\n\n#### magikVector.y ⇒ <code>number</code>\nReturns the `y` coordinate of this Vector.\n\n**Kind**: instance property of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n**Returns**: <code>number</code> - the `y` coordinate of this vector  \n**Example**  \n```js\nconst vector = new MagikVector(3, 4, 5);\nconst yCoordinate = vector.y; // returns 4\n```\n<a name=\"module_MagikVector..MagikVector+z\"></a>\n\n#### magikVector.z ⇒ <code>number</code>\nReturns the `z` coordinate of this Vector.\n\n**Kind**: instance property of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n**Returns**: <code>number</code> - the `z` coordinate of this vector  \n**Example**  \n```js\nconst vector = new MagikVector(3, 4, 5);\nconst zCoordinate = vector.z; // returns 5\n```\n<a name=\"module_MagikVector..MagikVector+x\"></a>\n\n#### magikVector.x ⇒ <code>void</code>\nSets the `x` coordinate of this Vector.\n\n**Kind**: instance property of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n\n| Param | Type | Description |\n| --- | --- | --- |\n| value | <code>number</code> | the value to set as x coordinate |\n\n**Example**  \n```js\nconst vector = new MagikVector();\nconst vector.x = 3;\n```\n<a name=\"module_MagikVector..MagikVector+y\"></a>\n\n#### magikVector.y ⇒ <code>void</code>\nSets  the `y` coordinate of this Vector.\n\n**Kind**: instance property of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n\n| Param | Type | Description |\n| --- | --- | --- |\n| value | <code>number</code> | the value to set as y coordinate |\n\n**Example**  \n```js\nconst vector = new MagikVector();\nconst vector.y = 4;\n```\n<a name=\"module_MagikVector..MagikVector+z\"></a>\n\n#### magikVector.z ⇒ <code>void</code>\nSets the `y` coordinate of this Vector.\n\n**Kind**: instance property of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n\n| Param | Type | Description |\n| --- | --- | --- |\n| value | <code>number</code> | the value to set as z coordinate |\n\n**Example**  \n```js\nconst vector = new MagikVector();\nconst vector.z = 5;\n```\n<a name=\"module_MagikVector..MagikVector+getCoordinate\"></a>\n\n#### magikVector.getCoordinate(index) ⇒ <code>number</code> \\| <code>undefined</code>\nReturns the coordinate at the specified index, consider using getX(),\ngetY() and getZ() to retrieve the coordinates of a 2D or 3D vector\n\n**Kind**: instance method of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n**Returns**: <code>number</code> \\| <code>undefined</code> - the coordinate at the specified index or undefined  \n**See**\n\n- MagikVector.x\n- MagikVector.y\n- MagikVector.z\n\n\n| Param | Type |\n| --- | --- |\n| index | <code>number</code> | \n\n<a name=\"module_MagikVector..MagikVector+setCoordinate\"></a>\n\n#### magikVector.setCoordinate(index, value) ⇒ <code>MagikVector</code>\nSets the coordinate at the specified index, consider using setX(),\nsetY() and setZ() to set the coordinates of a 2D or 3D vector\n\n**Kind**: instance method of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n**Returns**: <code>MagikVector</code> - the object itself  \n**See**\n\n- MagikVector.x\n- MagikVector.y\n- MagikVector.z\n\n\n| Param | Type | Description |\n| --- | --- | --- |\n| index | <code>number</code> | the  index to set the value for |\n| value | <code>number</code> | the value to set |\n\n<a name=\"module_MagikVector..MagikVector+add\"></a>\n\n#### magikVector.add(vector) ⇒ <code>MagikVector</code>\nAdds given vector to the current vector, i.e. adds the individual\ncoordinates.\n\n**Kind**: instance method of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n**Returns**: <code>MagikVector</code> - returns the current Vector  \n\n| Param | Type |\n| --- | --- |\n| vector | <code>MagikVector</code> | \n\n<a name=\"module_MagikVector..MagikVector+subtract\"></a>\n\n#### magikVector.subtract(vector) ⇒ <code>MagikVector</code>\nsubtracts given vector from the current vector, i.e. subtracts the\nindividual coordinates.\n\n**Kind**: instance method of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n**Returns**: <code>MagikVector</code> - returns the current Vector  \n\n| Param | Type |\n| --- | --- |\n| vector | <code>MagikVector</code> | \n\n<a name=\"module_MagikVector..MagikVector+multiply\"></a>\n\n#### magikVector.multiply(value) ⇒ <code>MagikVector</code> \\| <code>number</code>\nMultiplies the current Vector by value, you can supply either a scalar value\nor a Vector\n\n**Kind**: instance method of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n**Returns**: <code>MagikVector</code> \\| <code>number</code> - returns the current Vector  \n\n| Param | Type | Description |\n| --- | --- | --- |\n| value | <code>MagikVector</code> \\| <code>number</code> | scalar or Vector to use to multiply |\n\n<a name=\"module_MagikVector..MagikVector+divide\"></a>\n\n#### magikVector.divide(value) ⇒ <code>MagikVector</code>\nDivides the current vector by the supplied scallar or Vector value\n\n**Kind**: instance method of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n**Returns**: <code>MagikVector</code> - the divided MagikVector  \n\n| Param | Type | Description |\n| --- | --- | --- |\n| value | <code>MagikVector</code> \\| <code>number</code> | scalar or MagikVector to use to divide |\n\n<a name=\"module_MagikVector..MagikVector+clone\"></a>\n\n#### magikVector.clone() ⇒ <code>MagikVector</code>\nReturns a clone of the current vector, i.e. creates a new Vector Object with\nthe same coordinates as the current vector\n\n**Kind**: instance method of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n<a name=\"module_MagikVector..MagikVector+getMagnitudeSquared\"></a>\n\n#### magikVector.getMagnitudeSquared() ⇒ <code>number</code>\nReturns the magnitude squared\n\n**Kind**: instance method of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n<a name=\"module_MagikVector..MagikVector+getMagnitude\"></a>\n\n#### magikVector.getMagnitude() ⇒ <code>number</code>\nReturns the magnitude of the vector\n\n**Kind**: instance method of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n<a name=\"module_MagikVector..MagikVector+setMagnitude\"></a>\n\n#### magikVector.setMagnitude(magnitude) ⇒ <code>MagikVector</code>\nSets the magnitude of the Vector and returns the changed vector\n\n**Kind**: instance method of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n**Returns**: <code>MagikVector</code> - the adjusted MagikVector object  \n\n| Param | Type |\n| --- | --- |\n| magnitude | <code>number</code> | \n\n<a name=\"module_MagikVector..MagikVector+getDirection\"></a>\n\n#### magikVector.getDirection() ⇒ <code>number</code>\nCalculates the direction, i.e. the angle of rotation for this vector\n(only for 2D vectors)\n\n**Kind**: instance method of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n**Returns**: <code>number</code> - the angle of rotation in radians  \n<a name=\"module_MagikVector..MagikVector+getDistanceTo\"></a>\n\n#### magikVector.getDistanceTo(vector) ⇒ <code>number</code>\nReturns the calculated distance from the current Vector to the supplied one\n\n**Kind**: instance method of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n**Returns**: <code>number</code> - the distance between the two vectors  \n\n| Param | Type | Description |\n| --- | --- | --- |\n| vector | <code>MagikVector</code> | the vector to calculate the distance to |\n\n<a name=\"module_MagikVector..MagikVector+dotProduct\"></a>\n\n#### magikVector.dotProduct(vector) ⇒ <code>number</code>\nReturns the dot Product of the current Vector with the supplied Vector,\nthrows an Error if both Vectors do not have the same number of\ncoordinates\n\n**Kind**: instance method of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n\n| Param | Type |\n| --- | --- |\n| vector | <code>MagikVector</code> | \n\n<a name=\"module_MagikVector..MagikVector+normalise\"></a>\n\n#### magikVector.normalise() ⇒ <code>MagikVector</code>\nNormalises the Vector\n\n**Kind**: instance method of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n**Returns**: <code>MagikVector</code> - the normalised Vector  \n<a name=\"module_MagikVector..MagikVector+limit\"></a>\n\n#### magikVector.limit(scalar) ⇒ <code>MagikVector</code>\nLimits the magnitude of the Vector to the supplied scalar value\n\n**Kind**: instance method of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n\n| Param | Type |\n| --- | --- |\n| scalar | <code>number</code> | \n\n<a name=\"module_MagikVector..MagikVector+toString\"></a>\n\n#### magikVector.toString() ⇒ <code>string</code>\nReturns the string representation of the Vector\n\n**Kind**: instance method of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n**Returns**: <code>string</code> - the string representation of the Vector  \n<a name=\"module_MagikVector..MagikVector.random\"></a>\n\n#### MagikVector.random([dimensions]) ⇒ <code>MagikVector</code>\nReturns a new vector with random coordinates, defaults to a 3D vector\n\n**Kind**: static method of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n\n| Param | Type | Default | Description |\n| --- | --- | --- | --- |\n| [dimensions] | <code>number</code> | <code>3</code> | optional number of dimensions to use |\n\n<a name=\"module_MagikVector..MagikVector.random2D\"></a>\n\n#### MagikVector.random2D() ⇒ <code>MagikVector</code>\nReturns a new vector with two random coordinates\n\n**Kind**: static method of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n**Returns**: <code>MagikVector</code> - the vector with two random values  \n<a name=\"module_MagikVector..MagikVector.randomInteger\"></a>\n\n#### MagikVector.randomInteger([minimum], [maximum]) ⇒ <code>number</code>\nReturns a random integer optionally bound by the minimum(included) and\nmaximum (included) arguments. If only one argument is supplied, it is\nthe maximum number (same as `MagikVector.randomInteger(0, maximum)`)\n\n**Kind**: static method of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n\n| Param | Type | Description |\n| --- | --- | --- |\n| [minimum] | <code>number</code> | minimal value |\n| [maximum] | <code>number</code> | maximal value |\n\n<a name=\"module_MagikVector..MagikVector.toRadians\"></a>\n\n#### MagikVector.toRadians(degrees) ⇒ <code>number</code>\nConverts degrees to radians\n\n**Kind**: static method of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n\n| Param | Type |\n| --- | --- |\n| degrees | <code>number</code> | \n\n**Example** *(Convert degrees to Radians)*  \n```js\nradians = MagikVector.toRadians(degrees);\n```\n<a name=\"module_MagikVector..MagikVector.toDegrees\"></a>\n\n#### MagikVector.toDegrees(radians) ⇒ <code>number</code>\nConverts radians to degrees\n\n**Kind**: static method of [<code>MagikVector</code>](#module_MagikVector..MagikVector)  \n\n| Param | Type |\n| --- | --- |\n| radians | <code>number</code> | \n\n**Example** *(Convert Radian to degrees)*  \n```js\ndegrees = MagikVector.toDegrees(radians);\n```\n\n# License\n\nCopyright (C) 2016 - 2021 Bjørn Wikkeling (magikMaker)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal in\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\nof the Software, and to permit persons to whom the Software is furnished to do\nso, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nTHE AUTHORS OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nExcept as contained in this notice, the name(s) of the above copyright holders\nshall not be used in advertising or otherwise to promote the sale, use or other\ndealings in this Software without prior written authorization.\n",
+    "longname": "/Users/bjorn/projects/magikMaker/magik-vector/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"@magikmaker/magik-vector\",\n  \"version\": \"0.7.0\",\n  \"description\": \"Vector class for 2D, 3D and multi dimensional vector calculations\",\n  \"main\": \"./lib/magik-vector.js\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git://github.com/magikMaker/magik-vector.git\"\n  },\n  \"scripts\": {\n    \"dev\": \"yarn test:watcher\",\n    \"doc\": \"esdoc --debug -c ./config/esdoc.json\",\n    \"doc:readme\": \"jsdoc2md -t config/readme-template.hbs ./lib/magik-vector.js  > README.md; echo\",\n    \"//lint\": \"eslint lib\",\n    \"//lint:fix\": \"eslint --fix lib\",\n    \"lint\": \"eslint . -c ./config/.eslintrc --ignore-path ./config/.eslintignore\",\n    \"lint:fix\": \"eslint . --fix -c ./config/.eslintrc --ignore-path ./config/.eslintignore\",\n    \"prebuild\": \"yarn lint && yarn test\",\n    \"prepublishOnly\": \"yarn doc:readme\",\n    \"start\": \"yarn test:watcher\",\n    \"server\": \"nodemon --exec \\\"yarn test && yarn lint && yarn server\\\"\",\n    \"test\": \"yarn test:unit && yarn test:coverage\",\n    \"test:ci\": \"yarn test:unit\",\n    \"test:coverage\": \"nyc --reporter=text-summary --reporter=html mocha --opts ./config/mocha.opts\",\n    \"test:coverage:ci\": \"nyc report --reporter=clover --reporter=lcov\",\n    \"test:unit\": \"mocha --opts ./config/mocha.opts\",\n    \"test:watcher\": \"nodemon --exec \\\"yarn lint && yarn test\\\"\",\n    \"1test\": \"yarn run test:unit\",\n    \"1test:report\": \"nyc --all --reporter=text --reporter=html mocha --opts ./config/mocha.opts\",\n    \"1test:report:watch\": \"nodemon --exec \\\"yarn run lint && yarn run 1test:report\\\"\",\n    \"1test:unit\": \"nyc --all --reporter=text mocha --opts ./config/mocha.opts\",\n    \"1test:unit:ci\": \"nyc --all --reporter=text-summary mocha --opts ./config/mocha.opts\",\n    \"1test:watch\": \"nodemon --exec \\\"yarn run lint && yarn run test\\\"\"\n  },\n  \"files\": [\n    \"lib/magik-vector.js\"\n  ],\n  \"keywords\": [\n    \"2D\",\n    \"3D\",\n    \"algebra\",\n    \"linear\",\n    \"magik\",\n    \"math\",\n    \"multi dimensional\",\n    \"vector\",\n    \"vektor\"\n  ],\n  \"license\": \"MIT\",\n  \"author\": \"Bjørn Wikkeling\",\n  \"devDependencies\": {\n    \"@babel/cli\": \"^7.1.2\",\n    \"@babel/core\": \"^7.1.2\",\n    \"@babel/preset-env\": \"^7.1.0\",\n    \"@babel/register\": \"^7.0.0\",\n    \"@istanbuljs/nyc-config-babel\": \"^2.0.1\",\n    \"babel-plugin-istanbul\": \"^5.1.0\",\n    \"chai\": \"^4.2.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-es7-plugin\": \"^0.0.3\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^6.0.1\",\n    \"eslint-config-airbnb-base\": \"^13.1.0\",\n    \"eslint-plugin-chai-friendly\": \"^0.4.1\",\n    \"eslint-plugin-import\": \"^2.14.0\",\n    \"eslint-plugin-mocha\": \"^5.2.0\",\n    \"jsdoc\": \"^3.5.5\",\n    \"jsdoc-chameleon-template\": \"^1.0.2\",\n    \"jsdoc-to-markdown\": \"^5.0.0\",\n    \"magik-commit\": \"^1.0.2\",\n    \"magik-contributors\": \"^1.0.3\",\n    \"mocha\": \"^6.1.4\",\n    \"nodemon\": \"^1.18.4\",\n    \"nyc\": \"^14.1.1\",\n    \"proxyquire\": \"^2.1.1\",\n    \"sinon\": \"^7.1.1\",\n    \"sinon-chai\": \"^3.3.0\"\n  },\n  \"dependencies\": {},\n  \"engines\": {\n    \"node\": \">=6.0.0\"\n  },\n  \"contributors\": [\n    {\n      \"name\": \"Bjørn Wikkeling\",\n      \"email\": \"bjorn@provaz.eu\"\n    },\n    {\n      \"name\": \"Bjørn Wikkeling\",\n      \"email\": \"bjorn@wikkeling.com\"\n    }\n  ]\n}\n",
+    "longname": "/Users/bjorn/projects/magikMaker/magik-vector/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]
